@@ -44,9 +44,10 @@ Select a course from the home page.
 
 Read the notes to understand the concepts.
 
-Take the quiz and check your score instantly
+Take the quiz and check your score instantly.
 
-Future Improvements
+
+*Future Improvements*
 
 Add a score history feature.
 
