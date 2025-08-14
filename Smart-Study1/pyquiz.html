@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PYTHON Quiz</title>
+  <style>
+    /* Inline CSS from styles.css */
+    .box {
+      border: 1px solid black;
+      padding: 10px;
+      background-color: #f2f2f2ab;
+      display: inline-block;
+    }
+    .title-bar { background-color: #F5DEB3; height: 50px; position: relative; }
+    .title-overlay {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background-color: #964B00; display: flex; justify-content: center; align-items: center;
+    }
+    .title-overlay h1 { margin: 0; font-size: 24px; font-weight: bold; color: #fff; }
+    button[type="button"] {
+      padding: 10px; background-color: #4CAF50; color: #fff;
+      border: none; border-radius: 5px; cursor: pointer;
+    }
+    button[type="button"]:hover { background-color: #3e8e41; }
+  </style>
+</head>
+<body style="background-color: antiquewhite;">
+  <div class="title-bar">
+    <div class="title-overlay">
+      <h1>CODE-WELL</h1>
+    </div>
+  </div>
+  <br><br>
+  <h1>PYTHON QUIZ</h1>
+
+  <form id="quizForm">
+    <p>1. How do you declare a variable in Python?</p>
+    <input type="radio" name="q1" value="variable = value"> variable = value
+    <input type="radio" name="q1" value="var variable = value"> var variable = value
+    <input type="radio" name="q1" value="declare variable = value"> declare variable = value
+
+    <p>2. What is the data type of the variable x = 5?</p>
+    <input type="radio" name="q2" value="int"> int
+    <input type="radio" name="q2" value="float"> float
+    <input type="radio" name="q2" value="string"> string
+
+    <p>3. What is the operator used for addition in Python?</p>
+    <input type="radio" name="q3" value="+"> +
+    <input type="radio" name="q3" value="-"> -
+    <input type="radio" name="q3" value="*"> *
+
+    <p>4. What is the syntax for an if statement in Python?</p>
+    <input type="radio" name="q4" value="if (condition)"> if (condition)
+    <input type="radio" name="q4" value="if condition"> if condition
+    <input type="radio" name="q4" value="if { condition }"> if { condition }
+
+    <p>5. How do you define a function in Python?</p>
+    <input type="radio" name="q5" value="def function_name()"> def function_name()
+    <input type="radio" name="q5" value="function function_name()"> function function_name()
+    <input type="radio" name="q5" value="func function_name()"> func function_name()
+
+    <p>6. What is the primary concept of OOP in Python?</p>
+    <input type="radio" name="q6" value="Encapsulation"> Encapsulation
+    <input type="radio" name="q6" value="Abstraction"> Abstraction
+    <input type="radio" name="q6" value="All of the above"> All of the above
+
+    <p>7. How do you read a file in Python?</p>
+    <input type="radio" name="q7" value="open('file.txt', 'r')"> open('file.txt', 'r')
+    <input type="radio" name="q7" value="read('file.txt')"> read('file.txt')
+    <input type="radio" name="q7" value="file('file.txt')"> file('file.txt')
+
+    <p>8. What is the keyword used to handle exceptions in Python?</p>
+    <input type="radio" name="q8" value="try"> try
+    <input type="radio" name="q8" value="except"> except
+    <input type="radio" name="q8" value="error"> error
+
+    <p>9. What is the syntax for a list comprehension in Python?</p>
+    <input type="radio" name="q9" value="[x for x in list]"> [x for x in list]
+    <input type="radio" name="q9" value="(x for x in list)"> (x for x in list)
+    <input type="radio" name="q9" value="{x for x in list}"> {x for x in list}
+
+    <p>10. What is the syntax for a lambda function in Python?</p>
+    <input type="radio" name="q10" value="lambda x: x"> lambda x: x
+    <input type="radio" name="q10" value="function(x)"> function(x)
+    <input type="radio" name="q10" value="def lambda(x)"> def lambda(x)
+
+    <p>11. What function compiles a regular expression?</p>
+    <input type="radio" name="q11" value="re.compile()"> re.compile()
+    <input type="radio" name="q11" value="re.match()"> re.match()
+    <input type="radio" name="q11" value="re.search()"> re.search()
+
+    <p>12. Which library is used for networking in Python?</p>
+    <input type="radio" name="q12" value="socket"> socket
+    <input type="radio" name="q12" value="http"> http
+    <input type="radio" name="q12" value="requests"> requests
+
+    <p>13. What is the library used for database interaction in Python?</p>
+    <input type="radio" name="q13" value="sqlite3"> sqlite3
+    <input type="radio" name="q13" value="mysql"> mysql
+    <input type="radio" name="q13" value="psycopg2"> psycopg2
+
+    <p>14. Which library is used for GUI programming in Python?</p>
+    <input type="radio" name="q14" value="tkinter"> tkinter
+    <input type="radio" name="q14" value="PyQt"> PyQt
+    <input type="radio" name="q14" value="wxPython"> wxPython
+
+    <p>15. What is the framework used for web development in Python?</p>
+    <input type="radio" name="q15" value="Django"> Django
+    <input type="radio" name="q15" value="Flask"> Flask
+    <input type="radio" name="q15" value="Pyramid"> Pyramid
+
+    <p>16. What library is used for data analysis and visualization?</p>
+    <input type="radio" name="q16" value="Pandas"> Pandas
+    <input type="radio" name="q16" value="NumPy"> NumPy
+    <input type="radio" name="q16" value="Matplotlib"> Matplotlib
+
+    <p>17. Which library is used for machine learning?</p>
+    <input type="radio" name="q17" value="Scikit-learn"> Scikit-learn
+    <input type="radio" name="q17" value="TensorFlow"> TensorFlow
+    <input type="radio" name="q17" value="Keras"> Keras
+
+    <p>18. What is the library used for automation in Python?</p>
+    <input type="radio" name="q18" value="Selenium"> Selenium
+    <input type="radio" name="q18" value="PyAutoGUI"> PyAutoGUI
+    <input type="radio" name="q18" value="Robot"> Robot
+
+    <p>19. Which library is used for scientific computing in Python?</p>
+    <input type="radio" name="q19" value="NumPy"> NumPy
+    <input type="radio" name="q19" value="SciPy"> SciPy
+    <input type="radio" name="q19" value="Pandas"> Pandas
+
+    <p>20. What is the importance of education in Python programming?</p>
+    <input type="radio" name="q20" value="To learn the basics"> To learn the basics
+    <input type="radio" name="q20" value="To stay updated with the latest trends"> To stay updated with the latest trends
+    <input type="radio" name="q20" value="All of the above"> All of the above
+
+    <br><br>
+    <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    function submitQuiz() {
+      let score = 0;
+      let wrongAnswers = [];
+
+      const answers = {
+        q1: "variable = value",
+        q2: "int",
+        q3: "+",
+        q4: "if condition",
+        q5: "def function_name()",
+        q6: "All of the above",
+        q7: "open('file.txt', 'r')",
+        q8: "try",
+        q9: "[x for x in list]",
+        q10: "lambda x: x",
+        q11: "re.compile()",
+        q12: "socket",
+        q13: "sqlite3",
+        q14: "tkinter",
+        q15: "Django",
+        q16: "Matplotlib",
+        q17: "Scikit-learn",
+        q18: "Selenium",
+        q19: "NumPy",
+        q20: "All of the above"
+      };
+
+      for (let i = 1; i <= 20; i++) {
+        let selected = document.querySelector(`input[name="q${i}"]:checked`);
+        if (selected) {
+          if (selected.value === answers[`q${i}`]) score++;
+          else wrongAnswers.push(`${i}. Correct: "${answers[`q${i}`]}", Yours: ${selected.value}`);
+        } else {
+          wrongAnswers.push(`${i}. No answer selected`);
+        }
+      }
+
+      let resultHtml = `<p>Total Score: ${score}/20</p>`;
+      if (score < 20) {
+        resultHtml += "<p>Wrong Answers:</p><ul>";
+        wrongAnswers.forEach(a => { resultHtml += `<li>${a}</li>`; });
+        resultHtml += "</ul>";
+      }
+      document.getElementById('result').innerHTML = resultHtml;
+    }
+  </script>
+</body>
+</html>
