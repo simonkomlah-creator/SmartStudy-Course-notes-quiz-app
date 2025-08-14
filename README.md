@@ -18,18 +18,6 @@ It’s designed for students, beginners, and self-learners who want to learn pro
 
 📂 Modular Pages – Separate HTML files for course notes, quizzes, and the main selection page
 
-📂 Project Structure
-SmartStudy/
-│── index.html        # Main homepage
-│── qpage.html        # Quiz and course selection page
-│── python.html       # Python course notes
-│── php.html          # PHP course notes
-│── cpp.html          # C++ course notes
-│── pyquiz.html       # Python quiz
-│── Quizphp.html      # PHP quiz
-│── cppquiz.html      # C++ quiz
-│── styles.css        # Styling (some inline CSS in HTML)
-│── script.js 
 
 🚀 How to Use
 
