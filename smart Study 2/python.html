@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html>
+<div class="title-bar">
+    <div>
+      <h1 style="background-color: brown; text-align: center;">CODE-WELL</h1>
+    </div><br><br>
+<h1> PYTHON PROGRAMMING LANGUAGE </h1>
+
+<body style="background-color: antiquewhite;">
+    
+    <p>
+
+Python is a versatile and widely-used high-level programming language .<br> It's known for its simplicity, readability, and ease of use .<br>
+ Python is used for a broad range of applications, including web development,<br> data analysis, artificial intelligence, machine learning, automation, scientific computing,<br>
+  education, and more .<br>
+
+Python is a popular language among beginners, experts, and industries alike . <br>It's used by companies like Google, Facebook, Instagram, and Netflix .
+
+
+<br><br><br>
+<h> KEY FEATURES</h><br>
+
+ Easy to learn <br>
+ High-level language <br>
+ Interpreted language <br>
+ Large community <br>
+ Cross-platform compatibility <br>
+Extensive libraries and frameworks <br>
+
+
+        .
+    </p>
+    <h>
+        TOPICS AVAILABLE FOR THIS COURSE
+    </h>
+
+
+
+<details style="background-color: whitesmoke;">
+    <summary> Variables and Data Types</summary>
+Variables are used to store values in Python. <br>Data types determine the type of value a variable can hold.<br> Understanding variables and data types is essential for writing effective Python code.
+
+<h2>DATA TYPES IN PYTHON</h2><br>
+
+1. Integers (int): whole numbers, e.g., 1, 2, 3.<br> Integers can be positive, negative, or zero.<br><br>
+2. Floats (float): decimal numbers, e.g., 3.14, -0.5.<br> Floats are used to represent numbers with fractional parts.<br><br>
+3. Strings (str): text, e.g., "hello", 'hello'. <br>Strings can be enclosed in single quotes or double quotes.<br><br>
+4. Boolean (bool): true or false.<br> Boolean values are used for conditional statements and logical operations.<br><br>
+5. List (list): ordered collection of values, e.g., [1, 2, 3].<br> Lists are mutable, meaning they can be modified after creation.<br><br>
+6. Tuple (tuple): ordered, immutable collection of values, e.g., (1, 2, 3). <br>Tuples are similar to lists but cannot be modified after creation.<br><br>
+7. Dictionary (dict): key-value pairs, e.g., {"name": "John", "age": 30}. <br>Dictionaries are used to store data in a structured way.<br><br>
+
+Declaring Variables:
+<div class="box">
+
+x = 5  # integer
+y = 3.14  # float
+name = "John"  # string
+is_admin = True  # boolean
+my_list = [1, 2, 3]  # list
+my_tuple = (1, 2, 3)  # tuple
+my_dict = {"name": "John", "age": 30}  # dictionary</div><br>
+
+Variables and data types are fundamental concepts in Python programming. <br>They are used to store and manipulate data, and are essential for writing effective Python code.
+</details><br>
+
+
+
+<details style="background-color: whitesmoke;"><summary> Operators</summary>
+Operators are used to perform operations on variables and values in Python.<br> They are essential for writing expressions and statements.
+
+<h2>Types of Operators:</h2><br> <br> 
+
+1. Arithmetic Operators:<br> 
+    - + (addition)<br> 
+    - - (subtraction)<br> 
+    - * (multiplication)<br> 
+    - / (division)<br> 
+    - // (integer division)<br> 
+    - % (modulus)<br> 
+    - ** (exponentiation)<br> <br> 
+2. Comparison Operators:<br> 
+    - == (equal to)<br> 
+    - != (not equal to)<br> 
+    - > (greater than)<br> 
+    - < (less than)<br> 
+    - >= (greater than or equal to)<br> 
+    - <= (less than or equal to)<br> <br> 
+3. Logical Operators:<br> 
+    - and (logical and)<br> 
+    - or (logical or)<br> 
+    - not (logical not)<br> <br> 
+4. Assignment Operators:<br> 
+    - = (assignment)<br> 
+    - += (addition assignment)<br> 
+    - -= (subtraction assignment)<br> 
+    - *= (multiplication assignment)<br> 
+    - /= (division assignment)<br> <br> 
+5. Membership Operators:<br> 
+    - in (membership test)<br> 
+    - not in (non-membership test)<br> <br> 
+6. Identity Operators:<br> 
+    - is (identity test)<br> 
+    - is not (non-identity test)<br> 
+
+Example Usage:<br> 
+<div class="box">
+
+x = 5<br> 
+y = 3<br> </div><br><br>
+
+# arithmetic operators<br> <div class="box">
+
+result = x + y  # 8<br> 
+result = x * y  # 15<br> 
+</div><br>
+# comparison operators<br> 
+<div class="box">
+print(x > y)  # True<br> </div><br>
+
+# logical operators<br> 
+<div class="box">
+print(x > y and y > 0)  # True<br> </div><br>
+
+# assignment operators<br> 
+<div class="box">
+x += 2  # x = 7<br> </div><br>
+
+# membership operators<br> 
+<div class="box">
+my_list = [1, 2, 3]<br> 
+print(2 in my_list)  # True<br> </div><br>
+
+Operators are used to perform operations on variables and values, <br> and are essential for writing effective Python code.
+</details><br>
+
+
+
+
+<details style="background-color: white;"><summary> Control Structures</summary>
+Control structures are used to control the flow of execution in Python.<br> They determine which block of code to execute based on certain conditions.
+
+<h>If-Else Statements:</h>
+
+If-else statements are used to execute a block of code if a condition is true,<br> and another block if the condition is false.
+<div class="box">
+
+x = 5<br>
+if x > 10:<br>
+    print("x is greater than 10")<br>
+else:<br>
+    print("x is less than or equal to 10")<br><br>
+
+</div><br>
+Switch Statements (Python 3.10 and above):<br>
+
+Switch statements are used to execute a block of code based on the value of a variable.<br>
+<div class="box">
+
+x = 5<br>
+match x:<br>
+    case 1:<br>
+        print("x is 1")<br>
+    case 5:<br>
+        print("x is 5")<br>
+    case _:<br>
+        print("x is something else")<br><br>
+</div><br>
+
+Loops:<br>
+
+Loops are used to execute a block of code repeatedly.<br><br>
+
+- For Loops: For loops are used to iterate over a sequence (such as a list or tuple).<br>
+<div class="box">
+
+fruits = ["apple", "banana", "cherry"]<br>
+for fruit in fruits:<br>
+    print(fruit)<br><br>
+</div><br>
+
+- While Loops: While loops are used to execute a block of code as long as a condition is true.<br>
+<div class="box">
+
+x = 0<br>
+while x < 5:<br>
+    print(x)<br>
+    x += 1<br>
+
+</div><br>
+Break and Continue Statements:<br><br>
+
+- Break: The break statement is used to exit a loop immediately.<br>
+- Continue: The continue statement is used to skip the rest of the current iteration and move on to the next one.<br>
+
+<h>Example Usage:</h><br>
+<div class="box">
+
+x = 5<br>
+if x > 10:<br>
+    print("x is greater than 10")<br>
+else:<br>
+    print("x is less than or equal to 10")<br>
+
+fruits = ["apple", "banana", "cherry"]<br>
+for fruit in fruits:<br>
+    print(fruit)<br>
+
+x = 0<br>
+while x < 5:<br>
+    print(x)<br>
+    x += 1<br></div><br>
+
+Control structures are used to control the flow of execution in Python, <br>and are essential for writing effective Python code.<br>
+</details>
+<br>
+<details style="background-color: white;">
+<summary> Functions</summary>
+Functions are blocks of code that can be called multiple times from different parts of your program. <br>They are used to organize code, reduce repetition, and make your code more modular.<br>
+
+Defining a Function:<br>
+
+Functions are defined using the def keyword followed by the function name and parameters in parentheses.<br>
+<div class="box">
+
+def greet(name):<br>
+    print("Hello, " + name + "!")<br>
+
+</div><br>
+Calling a Function:<br>
+
+Functions are called by using the function name followed by the arguments in parentheses.
+
+greet("John")<br>
+
+
+Function Parameters:<br>
+
+Functions can take parameters, which are values passed to the function when it is called.<br>
+<div class="box">
+
+def add(x, y):<br>
+    return x + y<br>
+
+result = add(2, 3)<br>
+print(result)  # 5<br>
+
+</div><br>
+<h>Return Statement:</h><br>
+
+The return statement is used to return a value from a function.<br>
+<div class="box">
+
+def get_name():<br>
+    return "John"<br>
+
+name = get_name()<br>
+print(name)  # John<br>
+
+</div><br>
+<h>Example Usage:</h><br>
+<div class="box">
+
+def greet(name):<br>
+    print("Hello, " + name + "!")<br>
+
+greet("John")<br>
+
+def add(x, y):<br>
+    return x + y<br>
+
+result = add(2, 3)<br>
+print(result)  # 5<br>
+</div><br>
+Functions are used to organize code, reduce repetition, and make your code more modular.
+</details>
+<br>
+
+<details style="background-color: whitesmoke;"><summary> Modules and Packages</summary>
+Modules and packages are used to organize and structure your code.<br> They allow you to break your code into smaller, reusable pieces.<br>
+
+<h>Modules:</h>
+
+A module is a single Python file that contains code. <br>Modules can be imported into other Python files using the import statement.<br>
+<div class="box">
+
+# mymodule.py<br>
+def greet(name):<br>
+    print("Hello, " + name + "!")<br></div><br>
+<div class="box">
+
+# main.py<br>
+import mymodule<br>
+mymodule.greet("John")<br>
+
+</div><br>
+Packages:<br>
+
+A package is a collection of modules. Packages are used to organize related modules together. <br>Packages are created by creating a directory with an __init__.py file inside it.<br>
+<div class="box">
+
+# mypackage/mymodule.py<br>
+def greet(name):<br>
+    print("Hello, " + name + "!")<br>
+
+# mypackage/__init__.py<br>
+# empty file<br>
+
+# main.py<br>
+from mypackage import mymodule<br>
+mymodule.greet("John")<br></div><br>
+
+
+Importing Modules and Packages:<br>
+
+Modules and packages can be imported using the import statement.<br>
+
+import mymodule<br>
+from mypackage import mymodule<br>
+
+
+<h>Example Usage:</h><br>
+<div class="box">
+
+# mymodule.py<br>
+def greet(name):<br>
+    print("Hello, " + name + "!")<br>
+
+# main.py<br>
+import mymodule<br>
+mymodule.greet("John")<br>
+
+# mypackage/mymodule.py<br>
+def greet(name):<br>
+    print("Hello, " + name + "!")<br>
+
+# main.py<br>
+from mypackage import mymodule<br>
+mymodule.greet("John")<br></div>
+
+Modules and packages are used to organize and structure your code, <br>making it more reusable and maintainable.
+</details>
+
+<br>
+<details style="background-color: whitesmoke;"><summary> Object-Oriented Programming (OOP)</summary>
+Object-Oriented Programming (OOP) is a programming paradigm that uses objects to represent data and methods to manipulate that data.<br> OOP is used to organize code, make it more reusable, and easier to maintain.<br>
+
+<h>Classes:</h>
+
+A class is a blueprint for creating objects. Classes define the properties and methods of an object.<br>
+<div class="box">
+
+class Person:<br>
+    def __init__(self, name, age):<br>
+        self.name = name<br>
+        self.age = age<br>
+
+    def greet(self):<br>
+        print("Hello, my name is " + self.name + " and I am " + str(self.age) + " years old.")</div><br>
+
+
+Objects:<br>
+
+An object is an instance of a class. Objects have their own properties and methods.<br>
+<div class="box">
+
+person = Person("John", 30)<br>
+person.greet()<br>
+
+</div>
+Inheritance:<br>
+
+Inheritance is the process of creating a new class based on an existing class. <br>The new class inherits the properties and methods of the existing class.
+<br>
+<div class="box">
+
+class Employee(Person):<br>
+    def __init__(self, name, age, salary):<br>
+        super().__init__(name, age)<br>
+        self.salary = salary<br>
+
+    def display_salary(self):<br>
+        print("My salary is " + str(self.salary))</div><br>
+
+
+Polymorphism:<br>
+
+Polymorphism is the ability of an object to take on multiple forms. <br>This can be achieved through method overriding or method overloading.
+<br>
+<div class="box">
+
+class Animal:<br>
+    def sound(self):<br>
+        print("The animal makes a sound.")<br>
+
+class Dog(Animal):<br>
+    def sound(self):<br>
+        print("The dog barks.")<br>
+
+animal = Animal()<br>
+dog = Dog()<br>
+animal.sound()<br>
+dog.sound()</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+class Person:<br>
+    def __init__(self, name, age):<br>
+        self.name = name<br>
+        self.age = age<br>
+
+    def greet(self):<br>
+        print("Hello, my name is " + self.name + " and I am " + str(self.age) + " years old.")<br>
+
+person = Person("John", 30)<br>
+person.greet()</div><br>
+<div class="box">
+
+class Employee(Person):<br>
+    def __init__(self, name, age, salary):<br>
+        super().__init__(name, age)<br>
+        self.salary = salary<br>
+
+    def display_salary(self):<br>
+        print("My salary is " + str(self.salary))<br>
+
+employee = Employee("John", 30, 5000)<br>
+employee.greet()<br>
+employee.display_salary()</div><br>
+
+Object-Oriented Programming (OOP) is used to organize code, make it more reusable, and easier to maintain.<br>
+</details>
+
+<br>
+
+<details style="background-color: white;">
+    <summary> File Input/Output</summary>
+File Input/Output (I/O) is used to read and write data to files. <br>Python provides several functions and methods for performing file I/O operations.<br>
+
+Reading from a File:<br>
+
+To read from a file, you can use the open() function to open the file in read mode ('r'). <br>You can then use the read() method to read the contents of the file.<br>
+<div class="box">
+
+file = open('example.txt', 'r')<br>
+contents = file.read()<br>
+print(contents)<br>
+file.close()</div><br>
+
+
+Writing to a File:<br>
+
+To write to a file, you can use the open() function to open the file in write mode ('w'). <br>You can then use the write() method to write data to the file.<br>
+<div class="box">
+
+file = open('example.txt', 'w')<br>
+file.write('Hello, world!')<br>
+file.close()<br>
+</div>
+
+Appending to a File:<br>
+
+To append data to a file, you can use the open() function to open the file in append mode ('a').<br> You can then use the write() method to append data to the file.<br>
+<div class="box">
+
+file = open('example.txt', 'a')<br>
+file.write(' This is appended text.')<br>
+file.close()<br>
+</div>
+
+*Using with Statement:*<br>
+
+You can use the with statement to automatically close the file when you are done with it.<br>
+<div class="box">
+
+with open('example.txt', 'r') as file:<br>
+    contents = file.read()<br>
+    print(contents)</div>
+<br>
+
+Example Usage:<br>
+<div class="box">
+
+with open('example.txt', 'w') as file:<br>
+    file.write('Hello, world!')<br>
+
+with open('example.txt', 'r') as file:<br>
+    contents = file.read()<br>
+    print(contents)<br>
+
+with open('example.txt', 'a') as file:<br>
+    file.write(' This is appended text.')<br>
+
+with open('example.txt', 'r') as file:<br>
+    contents = file.read()<br>
+    print(contents)<br></div><br>
+
+File Input/Output is used to read and write data to files, and is an essential part of many Python programs.<br>
+</details>
+<br>
+<details style="background-color: white;">
+<summary> Exception Handling</summary>
+Exception handling is used to handle runtime errors that occur during the execution of a program.<br> Python provides several built-in exceptions that can be used to handle errors.<br>
+
+Try-Except Block:<br>
+
+The try-except block is used to handle exceptions.<br> The try block contains the code that might raise an exception, <br>and the except block contains the code that will be executed if an exception is raised.
+<div class="box">
+
+try:<br>
+    x = 5 / 0
+except ZeroDivisionError:<br>
+    print("Cannot divide by zero!")<br>
+</div>
+
+Multiple Except Blocks:<br>
+
+You can use multiple except blocks to handle different types of exceptions.<br>
+<div class="box">
+
+try:<br>
+    x = 5 / 0<br>
+except ZeroDivisionError:<br>
+    print("Cannot divide by zero!")<br>
+except TypeError:<br>
+    print("Invalid data type!")<br>
+</div><br>
+
+Except Block with Alias:<br>
+
+You can use an alias to access the exception object.<br>
+<div class="box">
+
+try:<br>
+    x = 5 / 0<br>
+except ZeroDivisionError as e:<br>
+    print("Error:", e)</div><br>
+
+<
+Finally Block:<br>
+
+The finally block is used to execute code regardless of whether an exception was raised or not.<br>
+<div class="box">
+
+try:<br>
+    x = 5 / 0<br>
+except ZeroDivisionError:<br>
+    print("Cannot divide by zero!")<br>
+finally:<br>
+    print("This code is always executed.")</div><br>
+
+<
+Raising Exceptions:<br>
+
+You can use the raise statement to raise an exception.<br>
+
+raise ValueError("Invalid value!")<br>
+
+
+Example Usage:<br>
+<div class="box">
+
+try:<br>
+    x = 5 / 0<br>
+except ZeroDivisionError:<br>
+    print("Cannot divide by zero!")<br>
+finally:
+    print("This code is always executed.")<br>
+
+try:<br>
+    raise ValueError("Invalid value!")<br>
+except ValueError as e:<br>
+    print("Error:", e)</div><br>
+
+Exception handling is used to handle runtime errors and make your code more robust.<br>
+</details>
+
+<br>
+
+<details style="background-color: whitesmoke;">
+<summary> List Comprehensions</summary>
+List comprehensions are a concise way to create lists in Python. <br>They are used to transform or filter existing lists.<br>
+
+Basic Syntax:<br>
+
+The basic syntax of a list comprehension is [expression for variable in iterable].<br>
+<div class="box">
+
+numbers = [1, 2, 3, 4, 5]<br>
+squares = [x**2 for x in numbers]<br>
+print(squares)  # [1, 4, 9, 16, 25]</div><br>
+
+
+Filtering:<br>
+
+You can use an if statement to filter the elements of the list.<br>
+<div class="box">
+
+numbers = [1, 2, 3, 4, 5]<br>
+even_squares = [x**2 for x in numbers if x % 2 == 0]<br>
+print(even_squares)  # [4, 16]</div><br>
+
+
+Multiple Loops:<br>
+
+You can use multiple loops to create a list comprehension.<br>
+<div class="box">
+
+numbers = [1, 2, 3]<br>
+letters = ['a', 'b', 'c']<br>
+pairs = [(x, y) for x in numbers for y in letters]<br>
+print(pairs)  # [(1, 'a'), (1, 'b'), (1, 'c'), (2, 'a'), (2, 'b'), (2, 'c'), (3, 'a'), (3, 'b'), (3, 'c')]</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+numbers = [1, 2, 3, 4, 5]<br>
+squares = [x**2 for x in numbers]<br>
+print(squares)  # [1, 4, 9, 16, 25]<br>
+
+fruits = ['apple', 'banana', 'cherry']<br>
+uppercase_fruits = [fruit.upper() for fruit in fruits]<br>
+print(uppercase_fruits)  # ['APPLE', 'BANANA', 'CHERRY']</div><br>
+
+List comprehensions are a concise way to create lists and are often used in Python programming.<br>
+</details>
+
+<br>
+
+<details style="background-color: whitesmoke;">
+<summary> Lambda Functions</summary>
+Lambda functions are small, anonymous functions that can be defined inline.<br> They are used to perform simple operations.<br>
+
+Basic Syntax:<br>
+
+The basic syntax of a lambda function is lambda arguments: expression.<br>
+<div class="box">
+
+add = lambda x, y: x + y<br>
+print(add(2, 3))  # 5<br>
+</div><br>
+
+Use Cases:<br>
+
+Lambda functions are often used with functions like map(), filter(), and reduce().<br>
+<div class="box">
+
+numbers = [1, 2, 3, 4, 5]<br>
+squares = list(map(lambda x: x**2, numbers))<br>
+print(squares)  # [1, 4, 9, 16, 25]</div><br>
+
+
+Filtering:<br>
+
+Lambda functions can be used with filter() to filter elements from a list.<br>
+<div class="box">
+
+numbers = [1, 2, 3, 4, 5]<br>
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))<br>
+print(even_numbers)  # [2, 4]</div><br>
+
+
+Sorting:<br>
+
+Lambda functions can be used as a key function for sorting.<br>
+<div class="box">
+
+fruits = ['apple', 'banana', 'cherry']<br>
+fruits.sort(key=lambda x: x.upper())<br>
+print(fruits)  # ['apple', 'banana', 'cherry']</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+add = lambda x, y: x + y<br>
+print(add(2, 3))  # 5<br>
+
+numbers = [1, 2, 3, 4, 5]<br>
+squares = list(map(lambda x: x**2, numbers))<br>
+print(squares)  # [1, 4, 9, 16, 25]</div><br>
+
+Lambda functions are a concise way to define small, anonymous functions.<br>
+</details>
+
+
+<br>
+<details style="background-color: white;">
+<summary> Regular Expressions</summary>
+Regular expressions (regex) are used to match patterns in strings. <br>Python provides the re module for working with regex.<br>
+
+Basic Syntax:<br>
+
+The basic syntax of a regex pattern is a string that defines the pattern to be matched.<br>
+<div class="box">
+
+import re<br>
+pattern = "hello"<br>
+string = "hello world"<br>
+match = re.search(pattern, string)<br>
+if match:<br>
+    print("Match found!")</div><br>
+
+
+Special Characters:<br>
+
+Regex patterns use special characters to define the pattern.<br>
+<div class="box">
+
+import re<br>
+pattern = "^hello"  # matches "hello" at the start of the string<br>
+string = "hello world"<br>
+match = re.search(pattern, string)<br>
+if match:<br>
+    print("Match found!")</div><br>
+
+
+Common Patterns:<br>
+
+Some common regex patterns include:<br>
+<ul>
+<li>. matches any character</li>
+<li>^ matches the start of the string</li>
+<li>$ matches the end of the string</li>
+<li>* matches zero or more occurrences</li>
+<li>+ matches one or more occurrences</li>
+<li>? matches zero or one occurrence</li>
+</ul>
+
+
+Example Usage:<br>
+<div class="box">
+
+import re<br>
+pattern = "\d+"  # matches one or more digits<br>
+string = "hello 123 world"<br>
+match = re.search(pattern, string)<br>
+if match:<br>
+    print("Match found:", match.group())  # 123</div><br>
+<div class="box">
+
+import re<br>
+pattern = "hello|world"  # matches "hello" or "world"<br>
+string = "hello world"<br>
+matches = re.findall(pattern, string)<br>
+print(matches)  # ['hello', 'world']</div>
+<br>
+Regular expressions are a powerful tool for matching patterns in strings.
+</details>
+
+<br>
+<details style="background-color: white;">
+<summary> Networking</summary>
+Networking in Python is used to communicate with other devices over a network. <br>Python provides several modules for networking, including socket and requests.<br>
+
+Socket Module:<br>
+
+The socket module is used to create a socket object, which can be used to connect to a server or create a server.<br>
+<div class="box">
+
+import socket<br>
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)<br>
+sock.connect(("www.google.com", 80))</div><br>
+
+
+Requests Module:<br>
+
+The requests module is used to send HTTP requests to a server.<br>
+<div class="box">
+
+import requests<br>
+response = requests.get("http://www.google.com")<br>
+print(response.text)</div><br>
+
+
+Server-Client Communication:<br>
+
+Python can be used to create a server-client communication system using sockets.<br>
+<div class="box">
+
+# server.py<br>
+import socket<br>
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)<br>
+sock.bind(("localhost", 8080))<br>
+sock.listen(1)<br>
+conn, addr = sock.accept()<br>
+data = conn.recv(1024)<br>
+print(data.decode())</div><br>
+<div class="box">
+
+# client.py<br>
+import socket<br>
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)<br>
+sock.connect(("localhost", 8080))<br>
+sock.send("Hello, server!".encode())</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+import requests<br>
+response = requests.get("http://www.google.com")<br>
+print(response.text)</div><br>
+<div class="box">
+
+import socket<br>
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)<br>
+sock.connect(("www.google.com", 80))<br>
+sock.send(b"GET / HTTP/1.1\r\nHost: www.google.com\r\n\r\n")<br>
+response = sock.recv(1024)<br>
+print(response.decode())</div><br>
+
+Networking in Python is used to communicate with other devices over a network.<br>
+</details>
+
+<br>
+
+<details style="background-color: whitesmoke;">
+<summary> Database Interaction</summary>
+Database interaction in Python is used to store and retrieve data from a database. <br>Python provides several modules for database interaction, including sqlite3 and psycopg2.<br>
+
+SQLite Database:<br>
+
+The sqlite3 module is used to interact with SQLite databases.<br>
+<div class="box">
+
+import sqlite3<br>
+conn = sqlite3.connect("example.db")<br>
+cursor = conn.cursor()<br>
+cursor.execute("CREATE TABLE users (name TEXT, age INTEGER)")<br>
+conn.commit()<br>
+conn.close()</div><br>
+
+
+Inserting Data:<br>
+
+Data can be inserted into a database using the execute() method.<br>
+<div class="box">
+
+import sqlite3<br>
+conn = sqlite3.connect("example.db")<br>
+cursor = conn.cursor()<br>
+cursor.execute("INSERT INTO users VALUES ('John Doe', 30)")<br>
+conn.commit()<br>
+conn.close()</div><br>
+
+
+Retrieving Data:<br>
+
+Data can be retrieved from a database using the execute() method.<br>
+<div class="box">
+
+import sqlite3<br>
+conn = sqlite3.connect("example.db")<br>
+cursor = conn.cursor()<br>
+cursor.execute("SELECT * FROM users")<br>
+rows = cursor.fetchall()<br>
+for row in rows:<br>
+    print(row)<br>
+conn.close()</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+import sqlite3<br>
+conn = sqlite3.connect("example.db")<br>
+cursor = conn.cursor()<br>
+cursor.execute("CREATE TABLE users (name TEXT, age INTEGER)")<br>
+cursor.execute("INSERT INTO users VALUES ('John Doe', 30)")<br>
+conn.commit()<br>
+cursor.execute("SELECT * FROM users")<br>
+rows = cursor.fetchall()<br>
+for row in rows:<br>
+    print(row)<br>
+conn.close()</div><br>
+
+Database interaction in Python is used to store and retrieve data from a database.
+</details>
+
+<br>
+<details style="background-color: whitesmoke;">
+<summary> GUI Programming</summary>
+GUI programming in Python is used to create graphical user interfaces. <br>Python provides several modules for GUI programming, including tkinter and PyQt.<br>
+
+Tkinter Module:<br>
+
+The tkinter module is used to create GUI applications.<br>
+<div class="box">
+
+import tkinter as tk<br>
+root = tk.Tk()<br>
+label = tk.Label(root, text="Hello, world!")<br>
+label.pack()<br>
+root.mainloop()</div><br>
+
+
+Creating Buttons:<br>
+
+Buttons can be created using the Button class.<br>
+<div class="box">
+
+import tkinter as tk<br>
+root = tk.Tk()<br>
+button = tk.Button(root, text="Click me!", command=lambda: print("Button clicked!"))<br>
+button.pack()<br>
+root.mainloop()</div><br>
+
+
+Creating Labels:<br>
+
+Labels can be created using the Label class.<br>
+<div class="box">
+
+import tkinter as tk<br>
+root = tk.Tk()<br>
+label = tk.Label(root, text="Hello, world!")<br>
+label.pack()<br>
+root.mainloop()</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+import tkinter as tk<br>
+root = tk.Tk()<br>
+label = tk.Label(root, text="Hello, world!")<br>
+label.pack()<br>
+button = tk.Button(root, text="Click me!", command=lambda: print("Button clicked!"))<br>
+button.pack()<br>
+root.mainloop()</div><br>
+
+GUI programming in Python is used to create graphical user interfaces.<br>
+</details>
+
+
+<br>
+<details style="background-color: white;">
+<summary> Web Development</summary>
+Web development in Python is used to create web applications. <br>Python provides several frameworks for web development, including Flask and Django.<br>
+
+Flask Framework:<br>
+
+The Flask framework is used to create small-scale web applications.<br>
+<div class="box">
+
+from flask import Flask<br>
+app = Flask(__name__)<br>
+
+@app.route("/")<br>
+def hello():<br>
+    return "Hello, world!"<br>
+
+if __name__ == "__main__":<br>
+    app.run()</div><br>
+
+
+Django Framework:<br>
+
+The Django framework is used to create large-scale web applications.<br>
+<div class="box">
+
+# Django project structure<br>
+# myproject/<br>
+#     manage.py<br>
+#     myproject/<br>
+#         __init__.py<br>
+#         settings.py<br>
+#         urls.py<br>
+#         wsgi.py<br>
+#     myapp/<br>
+#         __init__.py<br>
+#         admin.py<br>
+#         apps.py<br>
+#         models.py<br>
+#         tests.py<br>
+#         urls.py<br>
+#         views.py</div><br><br>
+<div class="box">
+
+from django.http import HttpResponse<br>
+from django.urls import path<br>
+
+def hello(request):<br>
+    return HttpResponse("Hello, world!")<br>
+
+urlpatterns = [<br>
+    path("", hello, name="hello"),</div>
+]<br>
+
+
+Creating Templates:<br>
+
+Templates can be created using HTML and template engines like Jinja2.<br>
+<div class="box">
+
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Hello, world!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hello, world!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></div><br>
+
+<div class="box">
+
+from flask import render_template<br>
+@app.route("/")<br>
+def hello():<br>
+    return render_template("template.html")</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+from flask import Flask<br>
+app = Flask(__name__)<br>
+
+@app.route("/")<br>
+def hello():<br>
+    return "Hello, world!"<br>
+
+if __name__ == "__main__":<br>
+    app.run()</div><br>
+
+# Run the app by executing python app.py<br>
+# Open a web browser and navigate to http://localhost:5000/<br>
+
+Web development in Python is used to create web applications using frameworks like Flask and Django.<br>
+</details> 
+
+
+<br>
+<details style="background-color: white;">
+<summary> Data Analysis and Visualization</summary>
+Data analysis and visualization in Python is used to analyze and visualize data. <br>Python provides several libraries for data analysis and visualization, including Pandas, NumPy, Matplotlib, and Seaborn.
+
+Pandas Library:<br>
+
+The Pandas library is used to analyze and manipulate data.<br>
+<div class="box">
+
+import pandas as pd<br>
+data = {'Name': ['John', 'Mary', 'David'], <br>
+        'Age': [25, 31, 42]}<br>
+df = pd.DataFrame(data)<br>
+print(df)</div><br>
+
+
+NumPy Library:<br>
+
+The NumPy library is used to perform numerical operations.<br>
+<div class="box">
+
+import numpy as np<br>
+arr = np.array([1, 2, 3, 4, 5])<br>
+print(arr.mean())</div><br>
+
+
+Matplotlib Library:<br>
+
+The Matplotlib library is used to create visualizations.<br>
+<div class="box">
+
+import matplotlib.pyplot as plt<br>
+x = [1, 2, 3, 4, 5]<br>
+y = [1, 4, 9, 16, 25]<br>
+plt.plot(x, y)<br>
+plt.show()</div><br>
+
+
+Seaborn Library:<br>
+
+The Seaborn library is used to create informative and attractive statistical graphics.<br>
+<div class="box">
+
+import seaborn as sns<br>
+import matplotlib.pyplot as plt<br>
+sns.set()<br>
+tips = sns.load_dataset("tips")<br>
+sns.barplot(x="sex", y="total_bill", data=tips)<br>
+plt.show()</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+import pandas as pd<br>
+import matplotlib.pyplot as plt<br>
+data = {'Name': ['John', 'Mary', 'David'], <br>
+        'Age': [25, 31, 42]}<br>
+df = pd.DataFrame(data)<br>
+plt.bar(df['Name'], df['Age'])<br>
+plt.show()</div><br>
+
+Data analysis and visualization in Python is used to analyze and visualize data using libraries like Pandas,<br> NumPy, Matplotlib, and Seaborn.
+</details>
+
+<br>
+
+<details style="background-color: whitesmoke;">
+<summary> Machine Learning and AI</summary>
+Machine learning and AI in Python is used to create models that can learn and make predictions. <br>Python provides several libraries for machine learning and AI, including Scikit-learn, TensorFlow, and Keras.
+<br>
+Scikit-learn Library:<br>
+
+The Scikit-learn library is used to create machine learning models.<br>
+<div class="box">
+
+from sklearn.datasets import load_iris<br>
+from sklearn.model_selection import train_test_split<br>
+from sklearn.linear_model import LogisticRegression<br>
+iris = load_iris()<br>
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2)<br>
+model = LogisticRegression()<br>
+model.fit(X_train, y_train)<br>
+print(model.score(X_test, y_test))</div><br>
+
+
+TensorFlow Library:<br>
+
+The TensorFlow library is used to create neural networks.<br>
+<div class="box">
+
+import tensorflow as tf<br>
+model = tf.keras.models.Sequential([<br>
+    tf.keras.layers.Dense(10, activation='relu', input_shape=(784,)),<br>
+    tf.keras.layers.Dense(10, activation='softmax')<br>
+])</div><br>
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])<br>
+
+
+Keras Library:<br>
+
+The Keras library is used to create neural networks.<br>
+<div class="box">
+
+from keras.models import Sequential<br>
+from keras.layers import Dense<br>
+model = Sequential()<br>
+model.add(Dense(10, activation='relu', input_shape=(784,)))<br>
+model.add(Dense(10, activation='softmax'))<br>
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+from sklearn.datasets import load_iris<br>
+from sklearn.model_selection import train_test_split<br>
+from sklearn.linear_model import LogisticRegression<br>
+iris = load_iris()<br>
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2)<br>
+model = LogisticRegression()<br>
+model.fit(X_train, y_train)<br>
+print(model.score(X_test, y_test))</div><br>
+
+Machine learning and AI in Python is used to create models that can<br> learn and make predictions using libraries like Scikit-learn, TensorFlow, and Keras.
+</details> 
+
+
+<br>
+<details style="background-color: whitesmoke;">
+<summary> Automation</summary>
+Automation in Python is used to automate tasks and processes. <br>Python provides several libraries for automation, including PyAutoGUI, Selenium, and Schedule.
+
+PyAutoGUI Library:<br>
+
+The PyAutoGUI library is used to automate GUI tasks.<br>
+<div class="box">
+
+import pyautogui<br>
+pyautogui.moveTo(100, 100)<br>
+pyautogui.click()</div><br>
+
+
+Selenium Library:<br>
+
+The Selenium library is used to automate web tasks.<br>
+<div class="box">
+
+from selenium import webdriver<br>
+driver = webdriver.Chrome()<br>
+driver.get("http://www.google.com")<br>
+driver.quit()</div><br>
+
+
+Schedule Library:<br>
+
+The Schedule library is used to schedule tasks.<br>
+<div class="box">
+
+import schedule<br>
+import time<br>
+
+def job():<br>
+    print("Hello, world!")<br>
+
+schedule.every().day.at("08:00").do(job)<br>
+
+while True:<br>
+    schedule.run_pending()<br>
+    time.sleep(1)</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+import pyautogui<br>
+pyautogui.moveTo(100, 100)<br>
+pyautogui.click()<br>
+
+# Automate a task every day at 8am<br>
+import schedule<br>
+import time<br>
+
+def job():<br>
+    print("Hello, world!")<br>
+
+schedule.every().day.at("08:00").do(job)<br>
+
+while True:<br>
+    schedule.run_pending()<br>
+    time.sleep(1)</div><br>
+
+Automation in Python is used to automate tasks and processes using libraries like PyAutoGUI, Selenium, and Schedule.
+</details> 
+
+<br>
+
+<details style="background-color: white;">
+<summary> Scientific Computing</summary>
+Scientific computing in Python is used to solve scientific problems.<br> Python provides several libraries for scientific computing, including NumPy, SciPy, and Pandas.
+
+NumPy Library:<br>
+
+The NumPy library is used to perform numerical operations.<br>
+<div class="box">
+
+import numpy as np<br>
+arr = np.array([1, 2, 3, 4, 5])<br>
+print(arr.mean())</div><br>
+
+
+SciPy Library:<br>
+
+The SciPy library is used to perform scientific operations.<br>
+<div class="box">
+
+from scipy import integrate<br>
+result, error = integrate.quad(lambda x: x**2, 0, 1)<br>
+print(result)</div><br>
+
+
+Pandas Library:<br>
+
+The Pandas library is used to analyze and manipulate data.<br>
+<div class="box">
+
+import pandas as pd<br>
+data = {'Name': ['John', 'Mary', 'David'], <br>
+        'Age': [25, 31, 42]}<br>
+df = pd.DataFrame(data)<br>
+print(df)</div><br>
+
+
+Example Usage:<br>
+<div class="box">
+
+import numpy as np<br>
+arr = np.array([1, 2, 3, 4, 5])<br>
+print(arr.mean())</div><br>
+
+# Calculate the integral of x^2 from 0 to 1<br>
+from scipy import integrate<br>
+result, error = integrate.quad(lambda x: x**2, 0, 1)<br>
+print(result)<br>
+
+Scientific computing in Python is used to solve scientific problems using libraries like NumPy, SciPy, and Pandas.
+</details>
+<br>
+
+
+<details style="background-color: white;">
+<summary> Education</summary>
+Education in Python is used to create educational resources and tools. <br>Python provides several libraries for education, including Jupyter Notebook, Matplotlib, and Pandas.
+
+Jupyter Notebook:<br>
+
+Jupyter Notebook is used to create interactive educational resources.<br>
+
+# Create a Jupyter Notebook cell<br>
+print("Hello, world!")<br>
+
+
+Matplotlib Library:<br>
+
+The Matplotlib library is used to create visualizations for educational purposes.<br>
+<div class="box">
+
+import matplotlib.pyplot as plt<br>
+x = [1, 2, 3, 4, 5]<br>
+y = [1, 4, 9, 16, 25]
+plt.plot(x, y)<br>
+plt.show()</div><br>
+
+
+Pandas Library:<br>
+
+The Pandas library is used to analyze and manipulate data for educational purposes.<br>
+<div class="box">
+
+import pandas as pd<br>
+data = {'Name': ['John', 'Mary', 'David'], <br>
+        'Age': [25, 31, 42]}<br>
+df = pd.DataFrame(data)<br>
+print(df)</div><br>
+
+
+Example Usage:<br>
+
+# Create an interactive educational resource using Jupyter Notebook<br>
+print("Hello, world!")<br>
+
+# Create a visualization for educational purposes using Matplotlib<br><div class="box">
+
+import matplotlib.pyplot as plt<br>
+x = [1, 2, 3, 4, 5]<br>
+y = [1, 4, 9, 16, 25]<br>
+plt.plot(x, y)<br>
+plt.show()</div><br>
+
+Education in Python is used to create educational resources and tools using libraries like Jupyter Notebook, Matplotlib, and Pandas.
+</details> 
+
+</body>
+
+
+    </html>

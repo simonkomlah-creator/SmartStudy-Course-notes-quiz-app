@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PHP Quiz</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body style="background-color: antiquewhite;">  
+
+<div class="title-bar">
+    <div class="title-overlay">
+      <h1>CODE-WELL </h1>
+    </div><br><br>
+    <h1>PHP Quiz</h1>
+  <form id="quizForm">
+    <p>1. What is the correct way to create an array in PHP?</p>
+    <input type="radio" name="q1" value="array()"> array()
+    <input type="radio" name="q1" value="$array = []"> $array = []
+    <input type="radio" name="q1" value="both"> Both
+
+    <p>2. What is the keyword used to create a new object in PHP?</p>
+    <input type="radio" name="q2" value="new"> new
+    <input type="radio" name="q2" value="create"> create
+    <input type="radio" name="q2" value="object"> object
+
+    <p>3. What is the correct syntax for an if statement in PHP?</p>
+    <input type="radio" name="q3" value="if (condition)"> if (condition)
+    <input type="radio" name="q3" value="if condition"> if condition
+    <input type="radio" name="q3" value="if { condition }"> if { condition }
+
+    <p>4. What is the function used to throw an exception in PHP?</p>
+    <input type="radio" name="q4" value="throw"> throw
+    <input type="radio" name="q4" value="error"> error
+    <input type="radio" name="q4" value="exception"> exception
+
+    <p>5. What is the data type of the variable $x = "hello";?</p>
+    <input type="radio" name="q5" value="string"> string
+    <input type="radio" name="q5" value="integer"> integer
+    <input type="radio" name="q5" value="boolean"> boolean
+
+    <p>6. What is the function used to read a file in PHP?</p>
+  <input type="radio" name="q1" value="fread"> fread
+  <input type="radio" name="q1" value="readfile"> readfile
+  <input type="radio" name="q1" value="file_get_contents"> file_get_contents
+
+  <p>7. What is the keyword used to define a function in PHP?</p>
+  <input type="radio" name="q2" value="function"> function
+  <input type="radio" name="q2" value="def"> def
+  <input type="radio" name="q2" value="func"> func
+
+  <p>8. How do you access the value of a text input field in PHP?</p>
+  <input type="radio" name="q3" value="$_POST['name']"> $_POST['name']
+  <input type="radio" name="q3" value="$_GET['name']"> $_GET['name']
+  <input type="radio" name="q3" value="$_REQUEST['name']"> $_REQUEST['name']
+
+  <p>9. What is the function used to send a GET request in PHP?</p>
+  <input type="radio" name="q4" value="file_get_contents"> file_get_contents
+  <input type="radio" name="q4" value="curl"> curl
+  <input type="radio" name="q4" value="http_get"> http_get
+
+  <p>10. What is the function used to decode JSON in PHP?</p>
+  <input type="radio" name="q5" value="json_decode"> json_decode
+  <input type="radio" name="q5" value="json_encode"> json_encode
+  <input type="radio" name="q5" value="decode_json"> decode_json
+
+ <p>11. What is the function used to connect to a MySQL database in PHP?</p>
+  <input type="radio" name="q1" value="mysqli_connect"> mysqli_connect
+  <input type="radio" name="q1" value="mysql_connect"> mysql_connect
+  <input type="radio" name="q1" value="pdo_connect"> pdo_connect
+
+  <p>12. What is the operator used for comparison in PHP?</p>
+  <input type="radio" name="q2" value="=="> ==
+  <input type="radio" name="q2" value="==="> ===
+  <input type="radio" name="q2" value="!="> !=
+
+  <p>13. What is the function used to perform a regular expression match in PHP?</p>
+  <input type="radio" name="q3" value="preg_match"> preg_match
+  <input type="radio" name="q3" value="ereg_match"> ereg_match
+  <input type="radio" name="q3" value="regex_match"> regex_match
+
+  <p>14. How do you start a session in PHP?</p>
+  <input type="radio" name="q4" value="session_start()"> session_start()
+  <input type="radio" name="q4" value="start_session()"> start_session()
+  <input type="radio" name="q4" value="begin_session()"> begin_session()
+
+  <p>15. What is the function used to concatenate strings in PHP?</p>
+  <input type="radio" name="q5" value="."> .
+  <input type="radio" name="q5" value="+"> +
+  <input type="radio" name="q5" value="concat()"> concat()
+
+ <p>16. How do you declare a variable in PHP?</p>
+  <input type="radio" name="q1" value="$variable = value"> $variable = value
+  <input type="radio" name="q1" value="var $variable = value"> var $variable = value
+  <input type="radio" name="q1" value="declare $variable = value"> declare $variable = value
+
+  <p>17. What is the keyword used to define a constant in PHP?</p>
+  <input type="radio" name="q2" value="define()"> define()
+  <input type="radio" name="q2" value="const"> const
+  <input type="radio" name="q2" value="constant()"> constant()
+
+  <p>18. What is the primary use of PHP in web development?</p>
+  <input type="radio" name="q3" value="Server-side scripting"> Server-side scripting
+  <input type="radio" name="q3" value="Client-side scripting"> Client-side scripting
+  <input type="radio" name="q3" value="Database management"> Database management
+
+  <p>19. What is the function used to parse XML in PHP?</p>
+  <input type="radio" name="q4" value="simplexml_load_string()"> simplexml_load_string()
+  <input type="radio" name="q4" value="xml_parse()"> xml_parse()
+  <input type="radio" name="q4" value="xml_load_string()"> xml_load_string()
+
+  <p>20. Which of the following is a popular PHP framework?</p>
+  <input type="radio" name="q5" value="Laravel"> Laravel
+  <input type="radio" name="q5" value="Angular"> Angular
+  <input type="radio" name="q5" value="React"> React
+  
+    <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+  </form>
+  <div id="result"></div>
+
+   <script src="phpquiz.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

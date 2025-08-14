@@ -1,0 +1,2713 @@
+<!DOCTYPE html>
+<html>
+<div class="title-bar">
+
+
+    <div>
+      <h1 style="background-color: brown; text-align: center;">CODE-WELL</h1>
+    </div><br><br>
+<h> INTRODUCTION TO C++ </h>
+
+<body style="background-color: antiquewhite;">
+    
+    <p>
+
+        C++ is a high-performance programming language that's been a favorite among developers for decades. <br>This
+        book is designed to guide you through the fundamentals of C++ programming and help you build a strong foundation
+        in the language.
+
+        <br>As you dive into this book, you'll discover the power of C++ and how it can be used to create robust,
+        efficient, and scalable applications. <br>C++ is a versatile language that can be used for a wide range of
+        projects, from quiz apps to intelligent learning platforms.
+
+        <br>So, buckle up and get ready to embark on an awesome journey into the world of C++. <br> This book will take
+        you step-by-step through the basics of C++ programming, ensuring that you have a solid understanding of the
+        language.
+
+        .
+    </p>
+    <h>
+        TOPICS AVAILABLE FOR THIS COURSE
+    </h>
+
+
+
+
+    <br>
+
+
+    <details style="background-color: whitesmoke;">
+        <summary> Variables and Data Types</summary>
+        Variables are used to store and manipulate data in a program. <br>Data types determine the type of value a
+        variable can hold, such as <br>
+        1.integers <br>
+        2.floating-point numbers<br>
+        3. characters etc.<br>
+        <br><div class="box">
+        int x = 5;  declares an integer variable named x and assigns it the value 5<br>
+        int: keyword for integer data type<br>
+         x: name of the variable<br>
+         =: assignment operator<br>
+         5: value being assigned to x </div><br><br>
+<div class="box">
+        float y = 3.14;  declares a floating-point variable named y and assigns it the value 3.14<br>
+         float: keyword for floating-point data type<br>
+         y: name of the variable<br>
+         =: assignment operator<br>
+         3.14: value being assigned to y
+</div><br><br>
+<div class="box">
+        char z = 'a';  declares a character variable named z and assigns it the value 'a'<br>
+        char: keyword for character data type<br>
+         z: name of the variable<br>
+         =: assignment operator <br>
+         'a': value being assigned to z (note the single quotes)
+</div><br><br>
+<div class="box">
+        string name = "John";  declares a string variable named name and assigns it the value "John<br>
+         string: keyword for string data type<br>
+         name: name of the variable<br>
+         =: assignment operator<br>
+         "John": value being assigned to name (note the double quotes)</div><br><br>
+<div class="box">
+        bool isAdmin = true; declares a boolean variable named isAdmin and assigns it the value true<br>
+         bool: keyword for boolean data type<br>
+         isAdmin: name of the variable<br>
+         =: assignment operator<br>
+         true: value being assigned to isAdmin</div><br>
+
+
+
+
+    </details>
+
+
+<details style="background-color: white;">
+<summary> Operators</summary>
+Operators are used to perform operations on variables and values, such as arithmetic, comparison, logical, assignment, etc. <br>Operators are a fundamental part of programming and are used extensively in all types of programs.
+
+<br>
+<div class="box">
+
+int x = 5 + 3;<br>
+
+int: keyword for integer data type<br>
+
+x: name of the variable<br>
+
+=: assignment operator<br>
+
+5 + 3: expression being evaluated (arithmetic operator +)<br>
+
+5: operand 1<br>
+
++: operator<br>
+
+3: operand 2</div><br>
+
+This line of code declares an integer variable named x and assigns it the result of 5 + 3, which is 8.<br><br>
+
+<div class="box">
+
+bool y = (x == 8);<br>
+
+bool: keyword for boolean data type<br>
+
+y: name of the variable<br>
+
+=: assignment operator<br>
+
+(x == 8): expression being evaluated (comparison operator ==)<br>
+
+x: operand 1<br>
+
+==: operator<br>
+
+8: operand 2</div><br>
+
+This line of code declares a boolean variable named y and assigns it the result of x == 8, which is true.<br><br>
+
+<div class="box">
+
+bool z = (x > 10) && (y == true);<br>
+
+bool: keyword for boolean data type<br>
+
+z: name of the variable<br>
+
+=: assignment operator<br>
+
+(x > 10) && (y == true): expression being evaluated (logical operator &&)<br>
+
+(x > 10): operand 1 (comparison operator >)<br>
+
+x: operand 1 of ><br>
+
+> : operator
+<br>
+10: operand 2 of ><br>
+
+&&: operator<br>
+
+(y == true): operand 2 (comparison operator ==)<br>
+
+y: operand 1 of ==<br>
+
+==: operator<br>
+
+true: operand 2 of ==
+</div><br>
+This line of code declares a boolean variable named z and assigns it the result of (x > 10) && (y == true), which is false.<br><br>
+
+<div class="box">
+
+x = 10;<br>
+
+x: variable being assigned<br>
+
+=: assignment operator<br>
+
+10: value being assigned to x<br>
+
+This line of code assigns the value 10 to x.<br>
+
+<br>
+int result = x % 3;<br>
+
+int: keyword for integer data type<br>
+
+result: name of the variable<br>
+
+=: assignment operator<br>
+
+x % 3: expression being evaluated (arithmetic operator %)<br>
+
+x: operand 1<br>
+
+%: operator<br>
+
+3: operand 2</div><br>
+
+This line of code declares an integer variable named result and assigns it the result of x % 3, which is 1.<br><br>
+
+<div class="box">
+
+bool isEqual = (x == 10);<br>
+
+bool: keyword for boolean data type<br>
+
+isEqual: name of the variable<br>
+
+=: assignment operator<br>
+
+(x == 10): expression being evaluated (comparison operator ==)<br>
+
+x: operand 1
+<br>
+==: operator<br>
+
+10: operand 2</div><br>
+
+This line of code declares a boolean variable named isEqual and assigns it the result of x == 10, which is true.<br><br>
+
+Operators are a crucial part of programming and are used to perform a wide range of operations, <br>from simple arithmetic to complex logical operations.
+</details>
+
+<details style="background-color: whitesmoke;">
+<summary> Control Structures (if-else, switch, loops)</summary>
+Control structures are used to control the flow of a program, making decisions and repeating actions.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Control structures allow you to make decisions, repeat actions, and control the flow of your program.<br>
+<div class="box">
+
+if (x > 10) {<br>
+
+
+if: keyword for if statement<br>
+
+
+(x > 10): condition being evaluated<br>
+
+
+x: operand 1<br>
+
+
+>: operator<br>
+
+
+10: operand 2<br>
+
+This line of code checks if x is greater than 10.<br>
+
+cout << "x is greater than 10";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is greater than 10": string being output</div><br>
+
+This line of code prints "x is greater than 10" if the condition is true.<br><br>
+<div class="box">
+
+} else {<br>
+
+
+else: keyword for else statement<br>
+
+This line of code is the else clause.<br>
+
+cout << "x is less than or equal to 10";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is less than or equal to 10": string being output</div><br>
+
+This line of code prints "x is less than or equal to 10" if the condition is false.<br><br>
+<div class="box">
+
+switch (x) {<br>
+
+
+switch: keyword for switch statement<br>
+
+
+(x): expression being evaluated<br>
+
+
+x: variable being evaluated<br>
+
+This line of code is a switch statement.<br>
+
+case 1:<br>
+
+
+case: keyword for case statement<br>
+
+
+1: value being compared<br>
+
+This line of code is a case statement.
+<br>
+cout << "x is 1";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is 1": string being output</div><br>
+
+This line of code prints "x is 1" if the value of x is 1.<br><br>
+<div class="box">
+
+break;<br>
+
+
+break: keyword for break statement
+<br>
+This line of code is a break statement.<br>
+
+for (int i = 0; i < 5; i++) {<br>
+
+
+for: keyword for for loop<br>
+
+
+int i = 0: initialization statement<br>
+
+
+i < 5: condition being evaluated<br>
+
+
+i++: increment statement<br>
+
+This line of code is a for loop.<br>
+
+cout << i;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+i: value being output</div><br>
+
+This line of code prints the value of i.<br><br>
+<div class="box">
+
+while (x > 0) {<br>
+
+
+while: keyword for while loop<br>
+
+
+(x > 0): condition being evaluated<br>
+
+
+x: operand 1<br>
+
+
+>: operator<br>
+
+
+0: operand 2<br>
+
+This line of code is a while loop.<br>
+
+cout << x;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+x: value being output</div><br>
+
+This line of code prints the value of x.<br>
+
+Control structures are a crucial part of programming and are used to control the flow of a program.<br>
+They are essential for any program and are used extensively in all types of programming.<br>
+
+</details>
+
+
+<details style="background-color: white;"><summary> Namespaces</summary>
+Namespaces are used to organize and scope identifiers in a program.<br>
+They are used to avoid naming conflicts and to group related identifiers together.<br>
+Namespaces are a fundamental part of programming and are used extensively in all types of programs.<br>
+<div class="box">
+
+namespace MyNamespace {<br>
+
+
+namespace: keyword for namespace declaration<br>
+
+
+MyNamespace: name of the namespace<br>
+
+This line of code declares a namespace named MyNamespace.<br>
+
+int x;<br>
+
+
+int: keyword for integer data type<br>
+
+
+x: name of the variable</div>
+<br>
+This line of code declares an integer variable named x within the namespace.<br>
+
+}<br>
+
+<div class="box">
+
+} : end of namespace declaration<br>
+
+This line of code ends the namespace declaration.<br>
+
+using namespace MyNamespace;<br>
+
+
+using: keyword for using directive<br>
+
+
+namespace: keyword for namespace<br>
+
+
+MyNamespace: name of the namespace</div><br>
+
+This line of code is a using directive that brings the namespace MyNamespace into scope.<br>
+<div class="box">
+
+MyNamespace::x = 5;<br>
+
+
+MyNamespace: name of the namespace<br>
+
+
+::: scope resolution operator<br>
+
+
+x: name of the variable<br>
+
+
+=: assignment operator<br>
+
+
+5: value being assigned to x</div>
+<br>
+This line of code assigns the value 5 to the variable x within the namespace MyNamespace.<br>
+
+Namespaces are a crucial part of programming and are used to organize and scope identifiers.<br>
+They are essential for any program and are used extensively in all types of programming.<br>
+
+</details>
+
+
+<details style="background-color: whitesmoke;">
+    <summary> Preprocessor Directives</summary>
+Preprocessor directives are used to provide instructions to the preprocessor.<br>
+They are used to include header files, define macros, and conditional compilation.<br>
+Preprocessor directives are a fundamental part of programming and are used extensively in all types of programs.<br>
+<div class="box">
+
+#include iostream<br>
+
+
+#include: preprocessor directive for including header files<br>
+
+
+iostream: header file being included<br>
+
+This line of code includes the iostream header file.<br>
+
+#define PI 3.14<br>
+
+
+#define: preprocessor directive for defining macros<br>
+
+
+PI: name of the macro<br>
+
+
+3.14: value being assigned to the macro</div><br>
+
+This line of code defines a macro named PI with the value 3.14.<br><br>
+<div class="box">
+
+#ifdef _DEBUG<br>
+
+
+#ifdef: preprocessor directive for conditional compilation<br>
+
+
+_DEBUG: macro being checked<br>
+
+This line of code checks if the _DEBUG macro is defined.<br>
+
+cout << "Debug mode";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"Debug mode": string being output</div><br>
+
+This line of code prints "Debug mode" if the _DEBUG macro is defined.<br><br>
+<div class="box">
+
+#endif<br>
+
+
+#endif: end of conditional compilation<br>
+
+This line of code ends the conditional compilation.<br>
+
+#ifndef _RELEASE<br>
+
+
+#ifndef: preprocessor directive for conditional compilation<br>
+
+
+_RELEASE: macro being checked<br>
+
+This line of code checks if the _RELEASE macro is not defined.<br>
+
+cout << "Not release mode";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"Not release mode": string being output</div><br>
+
+This line of code prints "Not release mode" if the _RELEASE macro is not defined.<br><br>
+<div class="box">
+
+#endif<br>
+
+
+#endif: end of conditional compilation</div>
+<br>
+This line of code ends the conditional compilation.<br>
+
+Preprocessor directives are a crucial part of programming and are used to provide instructions to the preprocessor.<br>
+They are essential for any program and are used extensively in all types of programming.<br>
+
+</details>
+
+
+<details style="background-color: white;"><summary> Control Structures (if-else, switch, loops)</summary>
+Control structures are used to control the flow of a program, making decisions and repeating actions.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Control structures allow you to make decisions, repeat actions, and control the flow of your program.
+<br>
+<div class="box">
+
+if (x > 10) {<br>
+
+
+if: keyword for if statement<br>
+
+
+(x > 10): condition being evaluated<br>
+
+
+x: operand 1<br>
+
+
+>: operator<br>
+
+
+10: operand 2<br>
+
+This line of code checks if x is greater than 10.<br>
+
+cout << "x is greater than 10";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is greater than 10": string being output</div><br>
+
+This line of code prints "x is greater than 10" if the condition is true.<br><br>
+<div class="box">
+
+} else {<br>
+
+
+else: keyword for else statement<br>
+
+This line of code is the else clause.<br>
+
+cout << "x is less than or equal to 10";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is less than or equal to 10": string being output</div><br>
+
+This line of code prints "x is less than or equal to 10" if the condition is false.<br><br>
+<div class="box">
+
+switch (x) {<br>
+
+
+switch: keyword for switch statement<br>
+
+
+(x): expression being evaluated<br>
+
+
+x: variable being evaluated<br>
+
+This line of code is a switch statement.<br>
+
+case 1:<br>
+
+
+case: keyword for case statement<br>
+
+
+1: value being compared<br>
+
+This line of code is a case statement.
+<br>
+cout << "x is 1";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is 1": string being output</div><br>
+
+This line of code prints "x is 1" if the value of x is 1.<br><br>
+<div class="box">
+
+break;
+<br>
+
+break: keyword for break statement<br>
+
+This line of code is a break statement.<br>
+
+for (int i = 0; i < 5; i++) {<br>
+
+
+for: keyword for for loop<br>
+
+
+int i = 0: initialization statement<br>
+
+
+i < 5: condition being evaluated<br>
+
+
+i++: increment statement<br>
+
+This line of code is a for loop.
+<br>
+cout << i;
+<br>
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+i: value being output</div><br>
+
+This line of code prints the value of i.<br><br>
+<div class="box">
+
+while (x > 0) {<br>
+
+
+while: keyword for while loop<br>
+
+
+(x > 0): condition being evaluated<br>
+
+
+x: operand 1<br>
+
+
+>: operator<br>
+
+
+0: operand 2<br>
+
+This line of code is a while loop.
+<br>
+cout << x;
+
+<br>
+cout: keyword for output stream
+<br>
+
+<<: operator for output stream<br>
+
+
+x: value being output</div><br>
+
+This line of code prints the value of x.<br><br>
+
+Control structures are a crucial part of programming and are used to control the flow of a program.<br>
+They are essential for any program and are used extensively in all types of programming.<br>
+
+</details>
+
+
+<details style="background-color: whitesmoke;"><summary> Algorithms (e.g. sort, search)</summary>
+Algorithms are used to perform specific tasks, such as sorting and searching.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Algorithms can be used to solve complex problems and improve the efficiency of a program.<br>
+<div class="box">
+
+void sort(int arr[], int size) {<br>
+
+
+void: keyword for return type<br>
+
+
+sort: name of the function<br>
+
+
+int arr[]: parameter 1, array being sorted<br>
+
+
+int size: parameter 2, size of the array</div><br>
+
+This line of code declares a function named sort that sorts an array.<br>
+<br>
+<div class="box">
+
+for (int i = 0; i < size - 1; i++) {
+
+<br>
+for: keyword for for loop
+
+<br>
+int i = 0: initialization statement
+
+<br>
+i < size - 1: condition being evaluated
+
+<br>
+i++: increment statement</div>
+<br>
+This line of code is a for loop that iterates over the array.<br><br>
+<div class="box">
+
+for (int j = 0; j < size - i - 1; j++) {
+<br>
+
+for: keyword for for loop
+
+<br>
+int j = 0: initialization statement
+<br>
+
+j < size - i - 1: condition being evaluated<br>
+
+
+j++: increment statement</div><br>
+
+This line of code is a nested for loop that compares adjacent elements.<br>
+<br>
+<div class="box">
+
+if (arr[j] > arr[j + 1]) {
+
+<br>
+if: keyword for if statement
+
+<br>
+(arr[j] > arr[j + 1]): condition being evaluated
+
+<br>
+arr[j]: operand 1
+
+<br>
+>: operator
+
+<br>
+arr[j + 1]: operand 2</div>
+<br>
+This line of code checks if the current element is greater than the next element.<br><br>
+<div class="box">
+
+int temp = arr[j];
+<br>
+
+int: keyword for integer data type<br>
+
+
+temp: name of the variable<br>
+
+
+=: assignment operator<br>
+
+
+arr[j]: value being assigned to temp</div><br>
+
+This line of code swaps the current element with the next element.<br><br>
+<div class="box">
+
+arr[j] = arr[j + 1];<br>
+
+
+arr[j]: variable being assigned<br>
+
+
+=: assignment operator<br>
+
+
+arr[j + 1]: value being assigned to arr[j]</div><br>
+
+This line of code assigns the value of the next element to the current element.<br><br>
+<div class="box">
+
+arr[j + 1] = temp;val<br>
+
+
+arr[j + 1]: variable being assigned<br>
+
+
+=: assignment operator<br>
+
+
+temp: value being assigned to arr[j + 1]</div><br>
+
+This line of code assigns the value of temp to the next element.<br><br>
+<div class="box">
+
+
+int search(int arr[], int size, int target) {<br>
+
+
+int: keyword for return type<br>
+
+
+search: name of the function<br>
+
+
+int arr[]: parameter 1, array being searched<br>
+
+
+int size: parameter 2, size of the array<br>
+
+
+int target: parameter 3, value being searched for</div><br>
+
+This line of code declares a function named search that searches for a value in an array.<br><br>
+<div class="box">
+
+for (int i = 0; i < size; i++) {<br>
+
+
+for: keyword for for loop<br>
+
+
+int i = 0: initialization statement<br>
+
+
+i < size: condition being evaluated<br>
+
+
+i++: increment statement</div><br>
+
+This line of code is a for loop that iterates over the array.<br><br>
+
+<div class="box">
+
+if (arr[i] == target) {<br>
+
+
+if: keyword for if statement<br>
+
+
+(arr[i] == target): condition being evaluated<br>
+
+
+arr[i]: operand 1<br>
+
+
+==: operator<br>
+
+
+target: operand 2</div><br>
+
+This line of code checks if the current element is equal to the target value.<br><br>
+<div class="box">
+
+return i;
+<br>
+
+return: keyword for return statement<br>
+
+
+i: value being returned</div><br>
+
+This line of code returns the index of the target value if found.<br><br>
+
+Algorithms are a crucial part of programming and are used to perform specific tasks,<br> such as sorting and searching.
+They are essential for any program and are used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: white;"><summary> Containers (e.g. vector, list, map)</summary>
+Containers are used to store and manage collections of data.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Containers provide a way to store, access, and manipulate data in a flexible and efficient way.<br>
+<div class="box">
+
+vector<int> myVector;<br>
+
+
+vector: keyword for vector container<br>
+
+
+<int>: template parameter for vector container<br>
+
+
+myVector: name of the vector</div><br>
+
+This line of code declares a vector container named myVector to store integers.<br><br>
+<div class="box">
+
+myVector.push_back(5);
+<br>
+
+push_back: method for adding elements to the vector<br>
+
+
+5: value being added to the vector</div><br>
+
+This line of code adds the value 5 to the end of the vector.<br><br>
+<div class="box">
+
+list<string> myList;<br>
+
+
+list: keyword for list container<br>
+
+
+<string>: template parameter for list container<br>
+
+
+myList: name of the list</div><br>
+
+This line of code declares a list container named myList to store strings.<br><br>
+<div class="box">
+
+myList.push_front("Hello");
+<br>
+
+push_front: method for adding elements to the front of the list<br>
+
+
+"Hello": value being added to the list</div><br>
+
+This line of code adds the string "Hello" to the front of the list.<br><br>
+<div class="box">
+
+map<string, int> myMap;
+<br>
+
+map: keyword for map container<br>
+
+
+<string, int>: template parameters for map container<br>
+
+
+myMap: name of the map</div><br>
+
+This line of code declares a map container named myMap to store string-integer pairs.<br><br>
+<div class="box">
+
+myMap["John"] = 25;<br>
+
+
+myMap: name of the map<br>
+
+
+["John"]: key being used to access the map<br>
+
+
+=: assignment operator<br>
+
+
+25: value being assigned to the map</div><br>
+
+This line of code assigns the value 25 to the key "John" in the map.<br><br>
+
+Containers are a crucial part of programming and are used to store and manage collections of data.<br>
+They are essential for any program and are used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: whitesmoke;"><summary> Iterators</summary>
+Iterators are used to iterate over containers, such as vectors and lists.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Iterators provide a way to access and manipulate the elements of a container.<br>
+<div class="box">
+
+vector<int>::iterator it;<br>
+
+
+vector<int>::iterator: type of the iterator<br>
+
+
+it: name of the iterator</div><br>
+
+This line of code declares an iterator named it for a vector of integers.<br><br>
+<div class="box">
+
+it = myVector.begin();<br>
+
+
+it: iterator being assigned<br>
+
+
+=: assignment operator<br>
+
+
+myVector.begin(): value being assigned to it</div><br>
+
+This line of code assigns the beginning of the vector to the iterator.<br><br>
+<div class="box">
+
+while (it != myVector.end()) {<br>
+
+
+while: keyword for while loop<br>
+
+
+(it != myVector.end()): condition being evaluated<br>
+
+
+it: operand 1<br>
+
+
+!=: operator<br>
+
+
+myVector.end(): operand 2</div><br>
+
+This line of code is a while loop that iterates over the vector.<br><br>
+<div class="box">
+
+cout << *it;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+*it: value being output</div><br>
+
+This line of code prints the value of the current element.<br><br>
+<div class="box">
+
+it++;<br>
+
+
+it: iterator being incremented<br>
+
+
+++: increment operator</div><br>
+
+This line of code increments the iterator to point to the next element.<br><br>
+<div class="box">
+
+vector<int>::reverse_iterator rit;<br>
+
+
+vector<int>::reverse_iterator: type of the iterator<br>
+
+
+rit: name of the iterator</div><br>
+
+This line of code declares a reverse iterator named rit for a vector of integers.<br><br>
+<div class="box">
+
+rit = myVector.rbegin();<br>
+
+
+rit: iterator being assigned<br>
+
+
+=: assignment operator<br>
+
+
+myVector.rbegin(): value being assigned to rit</div><br>
+
+This line of code assigns the beginning of the reversed vector to the reverse iterator.<br><br>
+<div class="box">
+
+while (rit != myVector.rend()) {
+<br>
+
+while: keyword for while loop
+<br>
+
+(rit != myVector.rend()): condition being evaluated
+
+<br>
+rit: operand 1
+
+<br>
+!=: operator
+
+<br>
+myVector.rend(): operand 2</div><br>
+
+This line of code is a while loop that iterates over the reversed vector.<br><br>
+<div class="box">
+
+cout << *rit;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+*rit: value being output</div><br>
+
+This line of code prints the value of the current element.<br><br>
+<div class="box">
+
+rit++;<br>
+
+
+rit: iterator being incremented<br>
+
+
+++: increment operator</div><br>
+
+This line of code increments the reverse iterator to point to the next element.<br><br>
+
+Iterators are a crucial part of programming and are used to iterate over containers.<br>
+They are essential for any program and are used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: white;"><summary> Standard Template Library (STL)</summary>
+The Standard Template Library (STL) is a collection of C++ container classes, algorithms, and iterators.<br>
+It is a fundamental part of the C++ Standard Library and is used extensively in all types of programs.<br>
+The STL provides a way to store, access, and manipulate data in a flexible and efficient way.<br>
+<div class="box">
+
+#include vector<br>
+
+
+#include: preprocessor directive for including header files<br>
+
+
+vector: header file being included<br>
+
+This line of code includes the vector header file from the STL.<br>
+
+vector<int> myVector;<br>
+
+
+vector: keyword for vector container<br>
+
+
+<int>: template parameter for vector container<br>
+
+
+myVector: name of the vector</div><br>
+
+This line of code declares a vector container named myVector to store integers.<br><br>
+<div class="box">
+
+sort(myVector.begin(), myVector.end());<br>
+
+
+sort: algorithm for sorting<br>
+
+
+myVector.begin(): iterator for the beginning of the vector<br>
+
+
+myVector.end(): iterator for the end of the vector</div><br>
+
+This line of code sorts the elements of the vector in ascending order.<br><br>
+<div class="box">
+
+find(myVector.begin(), myVector.end(), 5);<br>
+
+
+find: algorithm for finding an element<br>
+
+
+myVector.begin(): iterator for the beginning of the vector<br>
+
+
+myVector.end(): iterator for the end of the vector<br>
+
+
+5: value being searched for</div><br>
+
+This line of code searches for the value 5 in the vector.
+<br><br>
+The STL is a crucial part of programming and is used to store, access, and manipulate data in a flexible and efficient way.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: whitesmoke;">
+    <summary> Templates</summary>
+Templates are used to create generic functions and classes.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Templates provide a way to write code that can work with different data types.<br>
+<div class="box">
+
+template <typename T><br>
+
+
+template: keyword for template declaration<br>
+
+
+<typename T>: template parameter<br>
+
+This line of code declares a template parameter T.<br>
+
+T max(T a, T b) {<br>
+
+
+T: return type of the function<br>
+
+
+max: name of the function<br>
+
+
+T a: parameter 1<br>
+
+
+T b: parameter 2</div><br>
+
+This line of code declares a function named max that takes two parameters of type T.<br><br>
+<div class="box">
+
+if (a > b) {<br>
+
+
+if: keyword for if statement<br>
+
+
+(a > b): condition being evaluated<br>
+
+
+a: operand 1<br>
+
+
+>: operator<br>
+
+
+b: operand 2</div><br>
+
+This line of code checks if a is greater than b.<br><br>
+<div class="box">
+
+return a;<br>
+
+
+return: keyword for return statement
+<br>
+
+a: value being returned</div><br>
+
+This line of code returns the value of a if it is greater than b.<br><br>
+<div class="box">
+
+} else {<br>
+
+
+else: keyword for else statement<br>
+
+This line of code is the else clause.<br>
+
+return b;<br>
+
+
+return: keyword for return statement<br>
+
+
+b: value being returned</div><br>
+
+This line of code returns the value of b if it is greater than or equal to a.<br><br>
+<div class="box">
+
+template <typename T, int size><br>
+
+
+template: keyword for template declaration<br>
+
+
+<typename T, int size>: template parameters</div><br>
+
+This line of code declares two template parameters, T and size.<br><br>
+<div class="box">
+
+class MyArray {<br>
+
+
+MyArray: name of the class<br>
+
+This line of code declares a class named MyArray.<br>
+
+T arr[size];<br>
+
+
+T: type of the array elements<br>
+
+
+arr: name of the array<br>
+
+
+size: size of the array</div><br>
+
+This line of code declares an array of type T with size elements.<br><br>
+
+Templates are a crucial part of programming and are used to create generic functions and classes.<br>
+They are essential for any program and are used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: white;">
+    <summary> Exception Handling</summary>
+Exception handling is used to handle runtime errors and exceptions.<br>
+It is a fundamental part of programming and is used extensively in all types of programs.<br>
+Exception handling provides a way to catch and handle exceptions in a flexible and efficient way.<br>
+<div class="box">
+
+try {<br>
+
+
+try: keyword for try block<br>
+
+This line of code begins a try block.<br>
+
+cout << "Enter a number: ";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"Enter a number: ": string being output</div><br>
+
+This line of code prompts the user to enter a number.<br><br>
+<div class="box">
+
+int x;<br>
+
+
+int: keyword for integer data type<br>
+
+
+x: name of the variable</div><br>
+
+This line of code declares an integer variable named x.<br><br>
+<div class="box">
+
+cin >> x;<br>
+
+
+cin: keyword for input stream<br>
+
+
+>>: operator for input stream<br>
+
+
+x: variable being assigned</div><br>
+
+This line of code reads an integer value from the user and assigns it to x.<br><br>
+<div class="box">
+
+if (x == 0) {<br>
+
+
+if: keyword for if statement<br>
+
+
+(x == 0): condition being evaluated<br>
+
+
+x: operand 1<br>
+
+
+==: operator<br>
+
+
+0: operand 2</div><br>
+
+This line of code checks if x is equal to 0.<br><br>
+<div class="box">
+
+throw "Division by zero!";<br>
+
+
+throw: keyword for throw statement<br>
+
+
+"Division by zero!": exception being thrown</div><br>
+
+This line of code throws an exception if x is equal to 0.<br><br>
+<div class="box">
+
+} catch (const char* e) {
+<br>
+
+catch: keyword for catch block<br>
+
+
+const char* e: parameter of the catch block</div><br>
+
+This line of code begins a catch block to catch exceptions of type const char*.<br><br>
+
+<div class="box">
+
+cout << "Exception caught: " << e;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"Exception caught: ": string being output<br>
+
+
+e: exception being output</div>
+<br>
+This line of code prints the exception that was caught.<br><br>
+
+Exception handling is a crucial part of programming and is used to handle runtime errors and exceptions.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: whitesmoke;">
+    <summary> File Input/Output</summary>
+File input/output is used to read and write data to files.<br>
+It is a fundamental part of programming and is used extensively in all types of programs.<br>
+File input/output provides a way to store and retrieve data from files.<br>
+<div class="box">
+
+#include <fstream><br>
+
+
+#include: preprocessor directive for including header files<br>
+
+
+<fstream>: header file being included</div><br>
+
+This line of code includes the fstream header file for file input/output.<br><br>
+<div class="box">
+
+ofstream myFile;
+<br>
+
+ofstream: keyword for output file stream
+<br>
+
+myFile: name of the file stream
+<br>
+This line of code declares an output file stream named myFile.<br>
+
+myFile.open("example.txt");<br>
+
+
+open: method for opening a file<br>
+
+
+"example.txt": name of the file being opened</div><br>
+
+This line of code opens a file named example.txt for writing.<br><br>
+<div class="box">
+
+myFile << "Hello, world!";<br>
+
+
+myFile: output file stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"Hello, world!": string being output<br><br>
+
+This line of code writes the string "Hello, world!" to the file.<br><br>
+<div class="box">
+
+myFile.close();<br>
+
+
+close: method for closing a file<br>
+
+This line of code closes the file.
+<br>
+ifstream myFile;<br>
+ifstream: keyword for input file stream<br>
+
+
+myFile: name of the file stream</div><br>
+
+This line of code declares an input file stream named myFile.<br><br>
+<div class="box">
+
+myFile.open("example.txt");<br>
+
+
+open: method for opening a file<br>
+
+
+"example.txt": name of the file being opened</div><br>
+
+This line of code opens a file named example.txt for reading.<br><br>
+<div class="box">
+
+string line;<br>
+
+
+string: keyword for string data type<br>
+
+
+line: name of the variable<br>
+
+This line of code declares a string variable named line.<br>
+
+while (getline(myFile, line)) {<br>
+
+
+while: keyword for while loop<br>
+
+
+getline(myFile, line): function for reading a line from the file</div><br>
+
+This line of code reads a line from the file and stores it in the line variable.<br><br>
+<div class="box">
+
+
+cout << line;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+line: value being output</div><br>
+
+This line of code prints the line to the console.<br><br>
+
+File input/output is a crucial part of programming and is used to read and write data to files.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: white;"><summary> Abstraction</summary>
+Abstraction is used to hide the implementation details of an object or a system.<br>
+It is a fundamental part of programming and is used extensively in all types of programs.<br>
+Abstraction provides a way to focus on the essential features of an object or a system.
+<br>
+<div class="box">
+
+class Car {<br>
+
+
+Car: name of the class
+<br>
+This line of code declares a class named Car.<br>
+
+private:<br>
+
+
+private: access modifier</div><br>
+
+This line of code begins the private section of the class.<br><br>
+<div class="box">
+
+int speed;<br>
+
+
+int: keyword for integer data type<br>
+
+
+speed: name of the variable</div><br>
+
+This line of code declares an integer variable named speed.<br><br>
+<div class="box">
+
+public:<br>
+
+
+public: access modifier</div><br>
+
+This line of code begins the public section of the class.<br>
+<br>
+<div class="box">
+
+void accelerate() {<br>
+
+
+void: keyword for return type<br>
+
+
+accelerate: name of the function</div><br>
+
+This line of code declares a function named accelerate.<br><br>
+<div class="box">
+
+speed++;<br>
+
+
+speed: variable being incremented<br>
+
+
+++: increment operator</div><br>
+
+This line of code increments the speed variable.<br><br>
+<div class="box">
+
+}<br>
+
+
+} : end of the function
+<br>
+This line of code ends the accelerate function.<br>
+
+int getSpeed() {<br>
+
+
+int: keyword for return type<br>
+
+
+getSpeed: name of the function</div><br>
+
+This line of code declares a function named getSpeed.<br><br>
+<div class="box">
+
+return speed;<br>
+
+
+return: keyword for return statement<br>
+
+
+speed: value being returned</div><br>
+
+This line of code returns the value of the speed variable.<br>
+<br>
+
+<div class="box">
+
+}<br>
+
+
+} : end of the class<br>
+
+This line of code ends the Car class.</div><br>
+
+Abstraction is a crucial part of programming and is used to hide the implementation details of an object or a system.<br>
+It is essential for any program and is used extensively in all types of programming.<br>
+
+</details>
+
+
+
+<details style="background-color: whitesmoke;"><summary> Polymorphism</summary>
+Polymorphism is used to write functions that can work with different data types.<br>
+It is a fundamental part of programming and is used extensively in all types of programs.<br>
+Polymorphism provides a way to write more generic and reusable code.<br>
+<div class="box">
+
+class Animal {<br>
+
+
+Animal: name of the class</div><br>
+
+This line of code declares a class named Animal.<br><br>
+<div class="box">
+
+public:<br>
+
+
+public: access modifier</div><br>
+
+This line of code begins the public section of the class.<br><br>
+<div class="box">
+
+virtual void sound() {
+<br>
+
+virtual: keyword for virtual function<br>
+
+
+void: keyword for return type<br>
+
+
+sound: name of the function</div>
+<br>
+This line of code declares a virtual function named sound.<br><br>
+<div class="box">
+
+cout << "The animal makes a sound";<br>
+
+
+cout: keyword for output stream
+<br>
+
+<<: operator for output stream
+<br>
+
+"The animal makes a sound": string being output</div><br>
+
+This line of code prints a message indicating that the animal makes a sound.<br><br>
+<div class="box">
+
+}
+<br>
+
+} : end of the class<br>
+
+This line of code ends the Animal class.
+<br>
+class Dog : public Animal {
+
+<br>
+Dog: name of the class
+<br>
+
+: public Animal: inheritance specifier</div><br>
+
+This line of code declares a class named Dog that inherits from the Animal class.<br>
+<br>
+<div class="box">
+
+public:
+
+<br>
+public: access modifier</div><br>
+
+This line of code begins the public section of the class.<br>
+<br>
+<div class="box">
+
+void sound() {
+
+<br>
+void: keyword for return type
+
+<br>
+sound: name of the function</div>
+<br>
+This line of code overrides the sound function from the Animal class.<br>
+<br>
+<div class="box">
+
+cout << "The dog barks";
+
+<br>
+cout: keyword for output stream
+
+<br>
+<<: operator for output stream
+
+<br>
+"The dog barks": string being output</div>
+<br>
+This line of code prints a message indicating that the dog barks.<br>
+<br>
+<div class="box">
+
+}<br>
+
+
+} : end of the class</div><br>
+
+This line of code ends the Dog class.<br><br>
+
+<div class="box">
+
+Animal* myAnimal = new Dog();<br>
+
+
+Animal: type of the pointer<br>
+
+
+*: pointer operator<br>
+
+
+myAnimal: name of the pointer<br>
+
+
+=: assignment operator<br>
+
+
+new Dog(): value being assigned to myAnimal</div><br>
+
+This line of code creates a Dog object and assigns it to an Animal pointer.<br><br>
+<div class="box">
+
+myAnimal->sound();<br>
+
+
+myAnimal: pointer to the object<br>
+
+
+->: operator for accessing members of the object<br>
+
+
+sound(): function being called</div><br>
+
+This line of code calls the sound function on the Dog object.<br>
+<br>
+Polymorphism is a crucial part of programming and is used to write functions that can work with different data types.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+
+
+<details style="background-color: white;">
+    <summary> Inheritance</summary>
+Inheritance is used to create a new class based on an existing class.<br>
+It is a fundamental part of programming and is used extensively in all types of programs.<br>
+Inheritance provides a way to reuse code and promote code organization.<br>
+<div class="box">
+
+class Vehicle {<br>
+
+
+Vehicle: name of the class</div><br>
+
+This line of code declares a class named Vehicle.<br>
+<br>
+<div class="box">
+
+public:<br>
+
+
+public: access modifier</div><br>
+
+This line of code begins the public section of the class.<br><br>
+<div class="box">
+
+
+void drive() {
+<br>
+
+void: keyword for return type
+<br>
+
+drive: name of the function</div>
+<br>
+This line of code declares a function named drive.<br>
+<br>
+
+<div class="box">
+
+cout << "The vehicle is driving";
+<br>
+
+cout: keyword for output stream
+<br>
+
+<<: operator for output stream
+
+<br>
+"The vehicle is driving": string being output</div>
+<br>
+This line of code prints a message indicating that the vehicle is driving.<br>
+<br>
+<div class="box">
+
+}
+
+<br>
+} : end of the class</div>
+<br>
+This line of code ends the Vehicle class.<br>
+<br>
+<div class="box">
+
+class Car : public Vehicle {
+
+<br>
+Car: name of the class
+<br>
+
+: public Vehicle: inheritance specifier</div>
+<br>
+This line of code declares a class named Car that inherits from the Vehicle class.<br>
+<br>
+<div class="box">
+
+public:
+<br>
+
+public: access modifier</div>
+<br>
+This line of code begins the public section of the class.<br>
+<br>
+<div class="box">
+
+void honk() {
+
+<br>
+void: keyword for return type
+<br>
+
+honk: name of the function</div>
+<br>
+This line of code declares a function named honk.<br>
+<br>
+<div class="box">
+
+cout << "The car is honking";
+<br>
+
+cout: keyword for output stream
+<br>
+
+<<: operator for output stream
+<br>
+
+"The car is honking": string being output</div>
+<br>
+This line of code prints a message indicating that the car is honking.<br>
+<br>
+<div class="box">
+
+}
+<br>
+
+} : end of the class</div>
+<br>
+This line of code ends the Car class.<br>
+<br>
+<div class="box">
+
+Car myCar;
+<br>
+
+Car: type of the object
+
+<br>
+myCar: name of the object</div>
+<br>
+This line of code creates a Car object.<br>
+<br>
+<div class="box">
+
+myCar.drive();
+<br>
+
+myCar: object
+<br>
+
+.: operator for accessing members of the object
+<br>
+
+drive(): function being called</div>
+<br>
+This line of code calls the drive function on the Car object.<br>
+<br>
+<div class="box">
+
+myCar.honk();
+<br>
+
+myCar: object
+<br>
+
+.: operator for accessing members of the object
+<br>
+
+honk(): function being called</div>
+<br>
+This line of code calls the honk function on the Car object.<br>
+<br>
+Inheritance is a crucial part of programming and is used to create a new class based on an existing class.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+
+<details style="background-color: whitesmoke;">
+    <summary> Classes and Objects</summary>
+Classes and objects are used to create custom data types.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Classes provide a way to bundle data and methods that operate on that data.<br>
+<div class="box">
+
+class MyClass {<br>
+
+
+MyClass: name of the class</div><br>
+
+This line of code declares a class named MyClass.<br><br>
+<div class="box">
+
+public:<br>
+
+
+public: access modifier</div><br>
+
+This line of code begins the public section of the class.<br>
+<br>
+<div class="box">
+
+int x;<br>
+
+
+int: keyword for integer data type<br>
+
+
+x: name of the variable</div><br>
+
+This line of code declares an integer variable named x.<br>
+<br>
+<div class="box">
+
+MyClass() {
+
+<br>
+MyClass: constructor<br><br>
+
+This line of code declares a constructor for the class.<br><br>
+<div class="box">
+
+x = 0;<br>
+
+
+x: variable being assigned<br>
+
+
+=: assignment operator<br>
+
+
+0: value being assigned to x</div><br>
+
+This line of code initializes the value of x to 0.<br><br>
+<div class="box">
+
+}<br>
+
+
+}: end of constructor<br>
+
+This line of code ends the constructor.<br>
+
+void printX() {<br>
+
+
+void: return type of the method<br>
+
+
+printX: name of the method</div><br>
+
+This line of code declares a method named printX.<br><br>
+<div class="box">
+
+
+cout << x;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+x: value being output</div><br>
+
+This line of code prints the value of x.<br><br>
+
+<div class="box">
+
+}<br>
+
+
+}: end of method</div><br>
+
+This line of code ends the method.<br><br>
+
+<div class="box">
+
+MyClass myObject;<br>
+
+
+MyClass: type of the object<br>
+
+
+myObject: name of the object</div><br>
+
+This line of code creates an object of type MyClass named myObject.<br><br>
+<div class="box">
+
+myObject.x = 5;<br>
+
+
+myObject: object being accessed<br>
+
+
+.x: member of the object being accessed<br>
+
+
+=: assignment operator<br>
+
+
+5: value being assigned to myObject.x</div><br>
+
+This line of code assigns the value 5 to the x member of myObject.<br><br>
+<div class="box">
+
+myObject.printX();<br>
+
+
+myObject: object being accessed<br>
+
+
+.printX(): method of the object being called</div><br>
+
+This line of code calls the printX method on myObject.<br><br>
+
+Classes and objects are a crucial part of programming and are used to create custom data types.<br>
+It is essential for any program and is used extensively in all types of programming.<br>
+
+</details>
+
+
+
+<details style="background-color: white;">
+    <summary> Pointers and References</summary>
+Pointers and references are used to store and manipulate memory addresses.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Pointers provide a way to indirectly access and manipulate data.<br>
+<div class="box">
+
+int x = 5;<br>
+
+
+int: keyword for integer data type
+<br>
+
+x: name of the variable<br>
+
+
+=: assignment operator<br>
+
+
+5: value being assigned to x</div><br>
+
+This line of code declares an integer variable named x and assigns it the value 5.<br><br>
+<div class="box">
+
+int* ptr = &x;<br>
+
+
+int*: type of the pointer<br>
+
+
+ptr: name of the pointer<br>
+
+
+=: assignment operator
+<br>
+
+&x: address of x</div><br>
+
+This line of code declares a pointer to an integer named ptr and assigns it the address of x.<br><br>
+<div class="box">
+
+
+cout << *ptr;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream
+<br>
+
+*ptr: value being output (dereferenced pointer)</div>
+<br>
+This line of code prints the value of x using the pointer ptr.<br>
+<br>
+<div class="box">
+
+*ptr = 10;
+
+<br>
+*ptr: dereferenced pointer
+
+<br>
+=: assignment operator
+
+<br>
+10: value being assigned to *ptr</div>
+<br>
+This line of code assigns the value 10 to the variable x using the pointer ptr.<br>
+<br>
+<div class="box">
+
+int& ref = x;
+<br>
+
+int&: type of the reference
+
+<br>
+ref: name of the reference
+
+<br>
+=: assignment operator
+<br>
+
+x: value being referenced</div>
+<br>
+This line of code declares a reference to an integer named ref and assigns it the variable x.<br>
+<br>
+<div class="box">
+
+cout << ref;
+
+<br>
+cout: keyword for output stream
+
+<br>
+<<: operator for output stream
+<br>
+
+ref: value being output</div>
+<br>
+This line of code prints the value of x using the reference ref.
+<br><br>
+<div class="box">
+
+ref = 20;
+
+<br>
+ref: reference
+
+<br>
+=: assignment operator
+
+<br>
+20: value being assigned to ref</div>
+<br>
+This line of code assigns the value 20 to the variable x using the reference ref.<br>
+<br>
+Pointers and references are a crucial part of programming and are used to store and manipulate memory addresses.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+<details style="background-color: whitesmoke;"><summary> Arrays and Vectors</summary>
+Arrays and vectors are used to store collections of data.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Arrays provide a way to store a fixed-size collection of data, while vectors provide a way to store a dynamic collection of data.<br>
+<div class="box">
+
+int myArray[5];<br>
+
+
+int: keyword for integer data type<br>
+
+
+myArray: name of the array<br>
+
+
+[5]: size of the array</div><br>
+
+This line of code declares an array of integers named myArray with a size of 5.<br><br>
+<div class="box">
+
+myArray[0] = 10;
+<br>
+
+myArray: array being accessed
+
+<br>
+[0]: index of the array being accessed
+<br>
+
+=: assignment operator
+
+<br>
+10: value being assigned to myArray[0]</div>
+<br>
+This line of code assigns the value 10 to the first element of myArray.<br>
+<br>
+<div class="box">
+
+#include <vector>
+<br>
+
+#include: preprocessor directive for including header files
+<br>
+
+<vector>: header file being included</div>
+<br>
+This line of code includes the vector header file for using vectors.<br>
+<br>
+<div class="box">
+
+vector<int> myVector;
+
+<br>
+vector: keyword for vector container
+<br>
+
+<int>: template parameter for vector container
+
+<br>
+myVector: name of the vector</div>
+<br>
+This line of code declares a vector of integers named myVector.<br>
+<br>
+<div class="box">
+
+myVector.push_back(10);
+
+<br>
+myVector: vector being accessed
+<br>
+
+push_back: method for adding an element to the vector
+
+<br>
+(10): value being added to the vector</div>
+<br>
+This line of code adds the value 10 to the end of myVector.<br>
+<br>
+<div class="box">
+
+cout << myVector[0];
+<br>
+
+cout: keyword for output stream
+
+<br>
+<<: operator for output stream
+
+<br>
+myVector[0]: value being output</div>
+<br>
+This line of code prints the first element of myVector.<br>
+<br>
+Arrays and vectors are a crucial part of programming and are used to store collections of data.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+
+<details style="background-color: white;">
+    <summary> Control Structures</summary>
+Control structures are used to control the flow of a program.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Control structures include if-else statements, switch statements, and loops.<br>
+<div class="box">
+
+int x = 5;<br>
+
+
+int: keyword for integer data type<br>
+
+
+x: name of the variable<br>
+
+
+=: assignment operator<br>
+
+
+5: value being assigned to x</div><br>
+
+This line of code declares an integer variable named x and assigns it the value 5.<br><br>
+
+<div class="box">
+
+if (x > 10) {<br>
+
+
+if: keyword for if statement<br>
+
+
+(x > 10): condition being evaluated</div><br>
+
+This line of code checks if x is greater than 10.<br><br>
+
+<div class="box">
+
+cout << "x is greater than 10";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is greater than 10": string being output</div><br>
+
+This line of code prints a message if x is greater than 10.<br><br>
+<div class="box">
+
+} else {<br>
+
+
+else: keyword for else statement</div><br>
+
+This line of code is the else clause.<br><br>
+
+<div class="box">
+
+cout << "x is less than or equal to 10";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is less than or equal to 10": string being output<br><br>
+
+This line of code prints a message if x is less than or equal to 10.<br><br>
+<div class="box">
+
+switch (x) {<br>
+
+
+switch: keyword for switch statement<br>
+
+
+(x): expression being evaluated</div><br>
+
+This line of code is a switch statement that evaluates the value of x.<br><br>
+<div class="box">
+
+case 5:<br>
+
+
+case: keyword for case statement<br>
+
+
+5: value being matched</div><br>
+
+This line of code is a case statement that matches the value 5.<br>
+<br>
+<div class="box">
+
+cout << "x is 5";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"x is 5": string being output</div><br>
+
+This line of code prints a message if x is 5.<br><br>
+<div class="box">
+
+break;<br>
+
+
+break: keyword for break statement</div><br>
+
+This line of code ends the case statement.<br><br>
+
+<div class="box">
+
+for (int i = 0; i < 5; i++) {<br>
+
+
+for: keyword for for loop<br>
+
+
+(int i = 0; i < 5; i++): loop parameters</div><br>
+
+This line of code is a for loop that iterates 5 times.<br><br>
+<div class="box">
+
+cout << i;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream
+<br>
+
+i: value being output</div><br>
+
+This line of code prints the value of i.<br><br>
+<div class="box">
+
+while (x > 0) {
+<br>
+
+while: keyword for while loop<br>
+
+
+(x > 0): condition being evaluated</div><br>
+
+This line of code is a while loop that continues as long as x is greater than 0.<br><br>
+<div class="box">
+
+cout << x;<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+x: value being output</div><br>
+
+This line of code prints the value of x.<br><br>
+<div class="box">
+
+x--;<br>
+
+
+x: variable being decremented<br>
+
+
+--: decrement operator</div>
+<br>
+This line of code decrements the value of x.<br><br>
+
+Control structures are a crucial part of programming and are used to control the flow of a program.<br>
+It is essential for any program and is used extensively in all types of programming.
+
+</details>
+
+
+
+<details style="background-color: whitesmoke;"><summary> Functions</summary>
+Functions are used to group a set of statements together to perform a specific task.<br>
+They are a fundamental part of programming and are used extensively in all types of programs.<br>
+Functions provide a way to reuse code and promote code organization.<br>
+<div class="box">
+
+void myFunction() {<br>
+
+
+void: keyword for return type<br>
+
+
+myFunction: name of the function</div><br>
+
+This line of code declares a function named myFunction that returns nothing.<br><br>
+<div class="box">
+
+cout << "Hello, world!";<br>
+
+
+cout: keyword for output stream<br>
+
+
+<<: operator for output stream<br>
+
+
+"Hello, world!": string being output</div><br>
+
+This line of code prints "Hello, world!" to the console.<br><br>
+<div class="box">
+
+}<br>
+
+
+}: end of function</div><br>
+
+This line of code ends the myFunction function.<br><br>
+<div class="box">
+
+int main() {
+<br>
+
+int: keyword for return type<br>
+
+
+main: name of the function</div><br>
+
+This line of code declares the main function.<br><br>
+<div class="box">
+
+myFunction();<br>
+
+
+myFunction: function being called</div><br>
+
+This line of code calls the myFunction function.<br><br>
+<div class="box">
+
+return 0;<br>
+
+
+return: keyword for return statement<br>
+
+
+0: value being returned</div><br>
+
+This line of code returns 0 to indicate successful execution.<br><br>
+<div class="box">
+
+}<br>
+
+
+}: end of function</div><br>
+
+This line of code ends the main function.<br><br>
+<div class="box">
+
+int add(int a, int b) {<br>
+
+
+int: keyword for return type<br>
+
+
+add: name of the function<br>
+
+
+int a: parameter 1<br>
+
+
+int b: parameter 2</div><br>
+
+This line of code declares a function named add that takes two integer parameters and returns an integer.<br><br>
+<div class="box">
+
+return a + b;<br>
+
+
+return: keyword for return statement<br>
+
+
+a + b: value being returned</div><br>
+
+This line of code returns the sum of a and b.<br><br>
+<div class="box">
+
+}<br>
+
+
+}: end of function</div><br>
+
+This line of code ends the add function.<br><br>
+
+Functions are a crucial part of programming and are used to group a set of statements <br>together to perform a specific task.
+It is essential for any program and is used <br>extensively in all types of programming.
+
+</details>
+
+
+
+
+
+
+
+</body>
+
+</html>
